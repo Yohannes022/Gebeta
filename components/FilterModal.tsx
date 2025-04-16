@@ -20,32 +20,30 @@ interface FilterModalProps {
   onApply: (filters: any) => void;
 }
 
-export default function FilterModal({ 
-  visible, 
-  onClose, 
-  onApply 
-}: FilterModalProps) {
-  const [priceRange, setPriceRange] = useState<[number, number]>([0, 100]);
-  const [duration, setDuration] = useState<number | null>(null);
-  const [guests, setGuests] = useState(1);
+export function FilterModal({ visible, onClose, onApply }: FilterModalProps) {
+  const [filters, setFilters] = useState({
+    minPrice: null,
+    maxPrice: null,
+    duration: null,
+    guests: null,
+  });
 
   const handleApply = () => {
-    onApply({
-      minPrice: priceRange[0],
-      maxPrice: priceRange[1],
-      duration,
-      guests,
-    });
+    onApply(filters);
+    onClose();
   };
 
   const handleReset = () => {
-    setPriceRange([0, 100]);
-    setDuration(null);
-    setGuests(1);
+    setFilters({
+      minPrice: null,
+      maxPrice: null,
+      duration: null,
+      guests: null,
+    });
   };
 
   const handleDurationSelect = (hours: number | null) => {
-    setDuration(hours);
+    setFilters(prev => ({ ...prev, duration: hours }));
   };
 
   return (
@@ -71,14 +69,14 @@ export default function FilterModal({
             <View style={styles.section}>
               <Text style={styles.sectionTitle}>Price Range</Text>
               <PriceRangeSlider
-                range={priceRange}
-                onRangeChange={setPriceRange}
+                range={[filters.minPrice || 0, filters.maxPrice || 100]}
+                onRangeChange={(range) => setFilters(prev => ({ ...prev, minPrice: range[0], maxPrice: range[1] }))}
                 min={0}
                 max={100}
               />
               <View style={styles.priceLabels}>
-                <Text style={styles.priceLabel}>${priceRange[0]}</Text>
-                <Text style={styles.priceLabel}>${priceRange[1]}</Text>
+                <Text style={styles.priceLabel}>${filters.minPrice || 0}</Text>
+                <Text style={styles.priceLabel}>${filters.maxPrice || 100}</Text>
               </View>
             </View>
 
@@ -88,14 +86,14 @@ export default function FilterModal({
                 <TouchableOpacity
                   style={[
                     styles.durationOption,
-                    duration === null && styles.selectedDuration,
+                    filters.duration === null && styles.selectedDuration,
                   ]}
                   onPress={() => handleDurationSelect(null)}
                 >
                   <Text
                     style={[
                       styles.durationText,
-                      duration === null && styles.selectedDurationText,
+                      filters.duration === null && styles.selectedDurationText,
                     ]}
                   >
                     Any
@@ -104,14 +102,14 @@ export default function FilterModal({
                 <TouchableOpacity
                   style={[
                     styles.durationOption,
-                    duration === 1 && styles.selectedDuration,
+                    filters.duration === 1 && styles.selectedDuration,
                   ]}
                   onPress={() => handleDurationSelect(1)}
                 >
                   <Text
                     style={[
                       styles.durationText,
-                      duration === 1 && styles.selectedDurationText,
+                      filters.duration === 1 && styles.selectedDurationText,
                     ]}
                   >
                     1h
@@ -120,14 +118,14 @@ export default function FilterModal({
                 <TouchableOpacity
                   style={[
                     styles.durationOption,
-                    duration === 2 && styles.selectedDuration,
+                    filters.duration === 2 && styles.selectedDuration,
                   ]}
                   onPress={() => handleDurationSelect(2)}
                 >
                   <Text
                     style={[
                       styles.durationText,
-                      duration === 2 && styles.selectedDurationText,
+                      filters.duration === 2 && styles.selectedDurationText,
                     ]}
                   >
                     2h
@@ -136,14 +134,14 @@ export default function FilterModal({
                 <TouchableOpacity
                   style={[
                     styles.durationOption,
-                    duration === 3 && styles.selectedDuration,
+                    filters.duration === 3 && styles.selectedDuration,
                   ]}
                   onPress={() => handleDurationSelect(3)}
                 >
                   <Text
                     style={[
                       styles.durationText,
-                      duration === 3 && styles.selectedDurationText,
+                      filters.duration === 3 && styles.selectedDurationText,
                     ]}
                   >
                     3h+
@@ -155,9 +153,9 @@ export default function FilterModal({
             <View style={styles.section}>
               <Text style={styles.sectionTitle}>Guests</Text>
               <GuestCounter
-                count={guests}
-                onIncrement={() => setGuests(guests + 1)}
-                onDecrement={() => guests > 1 && setGuests(guests - 1)}
+                count={filters.guests || 1}
+                onIncrement={() => setFilters(prev => ({ ...prev, guests: (prev.guests || 1) + 1 }))}
+                onDecrement={() => filters.guests > 1 && setFilters(prev => ({ ...prev, guests: prev.guests - 1 }))}
               />
             </View>
           </ScrollView>

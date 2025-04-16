@@ -1,18 +1,50 @@
 import React from "react";
 import { Tabs } from "expo-router";
-import { StyleSheet } from "react-native";
+import { StyleSheet, Platform, View } from "react-native";
+import { useSafeAreaInsets } from "react-native-safe-area-context";
+import { BlurView } from "expo-blur";
 import Colors from "@/constants/colors";
 import { Home, Search, Compass, Calendar, User, Plus } from "lucide-react-native";
 
 export default function TabLayout() {
+  const insets = useSafeAreaInsets();
+
   return (
     <Tabs
       screenOptions={{
         tabBarActiveTintColor: Colors.primary,
         tabBarInactiveTintColor: Colors.inactive,
-        tabBarStyle: styles.tabBar,
+        tabBarBackground: () => (
+          <BlurView
+            intensity={80}
+            tint="light"
+            style={[
+              styles.tabBarBackground,
+              {
+                height: 60 + insets.bottom,
+                paddingBottom: Platform.OS === 'ios' ? insets.bottom : 8,
+              }
+            ]}
+          />
+        ),
+        tabBarStyle: [
+          styles.tabBar,
+          {
+            height: 55 + insets.bottom,
+            paddingBottom: Platform.OS === 'ios' ? insets.bottom : 8,
+            marginBottom: Platform.OS === 'ios' ? 10 : 0,
+            marginHorizontal: Platform.OS === 'ios' ? 20 : 0,
+            borderWidth: StyleSheet.hairlineWidth,
+            borderRadius: 35,
+            borderCurve: 'continuous',
+            overflow: 'hidden',
+            
+
+          }
+        ],
         headerShown: false,
         tabBarLabelStyle: styles.tabBarLabel,
+        tabBarItemStyle: styles.tabBarItem,
       }}
     >
       <Tabs.Screen
@@ -58,13 +90,27 @@ const styles = StyleSheet.create({
   tabBar: {
     elevation: 0,
     shadowOpacity: 0,
-    borderTopWidth: 1,
-    borderTopColor: Colors.border,
-    height: 60,
-    paddingBottom: 8,
+    borderTopWidth: 0,
+    backgroundColor: 'transparent',
+    position: 'absolute',
+    left: 0,
+    right: 0,
+    bottom: 0,
+  },
+  tabBarBackground: {
+    position: 'absolute',
+    left: 0,
+    right: 0,
+    bottom: 0,
+    borderTopWidth: 0,
+    overflow: 'hidden',
   },
   tabBarLabel: {
     fontSize: 12,
     fontWeight: "500",
+    marginTop: 4,
+  },
+  tabBarItem: {
+    paddingTop: 8,
   },
 });

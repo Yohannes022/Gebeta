@@ -17,9 +17,13 @@ import Colors from "@/constants/colors";
 import Layout from "@/constants/layout";
 import { categories } from "@/mocks/categories";
 import { useExperiencesStore } from "@/store/experiences-store";
-import ExperienceCard from "@/components/ExperianceCard";
-import FilterModal from "@/components/FilterModal";
+import ExperianceCard from "@/components/ExperianceCard";
+import {FilterModal} from "@/components/FilterModal";
 import CategoryPill from "@/components/CategoryPill";
+import { Ionicons } from "@expo/vector-icons";
+import { PriceRangeSlider } from "@/components/PriceRangeSlider";
+import { DurationFilter } from "@/components/DurationFilter";
+import { GuestsFilter } from "@/components/GuestsFilter";
 
 export default function SearchScreen() {
   const router = useRouter();
@@ -39,12 +43,14 @@ export default function SearchScreen() {
   const [popularSearches, setPopularSearches] = useState([
     "Traditional breakfast", "Cooking class", "Coffee tasting", "Vegan options"
   ]);
+  const [showFilters, setShowFilters] = useState(false);
   
   const { 
     experiences, 
     setSearchQuery: storeSetSearchQuery,
     setSelectedCategory: storeSetSelectedCategory,
-    setFilters
+    setFilters,
+    getFilteredExperiences,
   } = useExperiencesStore();
 
   useEffect(() => {
@@ -53,6 +59,10 @@ export default function SearchScreen() {
       storeSetSelectedCategory(String(categoryParam));
     }
   }, [categoryParam]);
+
+  useEffect(() => {
+    setSearchQuery(searchQuery);
+  }, [searchQuery]);
 
   const handleSearch = () => {
     if (!searchQuery.trim()) return;
@@ -89,7 +99,7 @@ export default function SearchScreen() {
   };
 
   const handleExperiencePress = (id: string) => {
-    router.push("/experience/${id}");
+    router.push(`/experience/${id}`);
   };
 
   const handleFilterApply = (filters: any) => {
@@ -115,7 +125,15 @@ export default function SearchScreen() {
     handleSearch();
   };
 
-  const selectedCategoryObj = categories.find(c => c.id === selectedCategory);
+  const categories = ["All", "Food", "Culture", "Adventure", "Nature"];
+  const selectedCategoryObj = categories.find(c => c === selectedCategory);
+
+  const handleFilterChange = (newFilters: any) => {
+    setFilters(newFilters);
+  };
+
+  // Safely get filtered experiences
+  const filteredExperiences = getFilteredExperiences() || [];
 
   return (
     <SafeAreaView style={styles.container} edges={["top"]}>
@@ -138,30 +156,49 @@ export default function SearchScreen() {
         </View>
         <TouchableOpacity 
           style={styles.filterButton}
-          onPress={() => setIsFilterVisible(true)}
+          onPress={() => setShowFilters(!showFilters)}
         >
-          <Filter size={20} color={Colors.text} />
+          <Ionicons name="options-outline" size={24} color={Colors.text} />
         </TouchableOpacity>
       </View>
 
-      {searchResults.length > 0 ? (
+      <ScrollView
+        horizontal
+        showsHorizontalScrollIndicator={false}
+        style={styles.categoriesContainer}
+      >
+        {categories.map((category) => (
+          <TouchableOpacity
+            key={category}
+            style={styles.categoryButton}
+            onPress={() => setSelectedCategory(category === "All" ? null : category)}
+          >
+            <Text style={styles.categoryText}>{category}</Text>
+          </TouchableOpacity>
+        ))}
+      </ScrollView>
+
+      {showFilters && (
+        <View style={styles.filtersContainer}>
+          <PriceRangeSlider onValueChange={handleFilterChange} />
+          <DurationFilter onValueChange={handleFilterChange} />
+          <GuestsFilter onValueChange={handleFilterChange} />
+        </View>
+      )}
+
+      {filteredExperiences.length > 0 ? (
         <FlatList
-          data={searchResults}
-          keyExtractor={(item) => item.id}
+          data={filteredExperiences}
+          keyExtractor={(item) => item?.id || Math.random().toString()}
           renderItem={({ item }) => (
-            <ExperienceCard
-              experience={item}
-              onPress={() => handleExperiencePress(item.id)}
-              style={styles.card}
-            />
+            item ? (
+              <ExperianceCard 
+                experience={item} 
+                onPress={() => handleExperiencePress(item.id)}
+              />
+            ) : null
           )}
-          contentContainerStyle={styles.list}
-          ListEmptyComponent={
-            <View style={styles.emptyContainer}>
-              <Text style={styles.emptyText}>No experiences found</Text>
-              <Text style={styles.emptySubtext}>Try adjusting your search or filters</Text>
-            </View>
-          }
+          contentContainerStyle={styles.resultsContainer}
         />
       ) : (
         <ScrollView style={styles.scrollContent}>
@@ -351,25 +388,46 @@ const styles = StyleSheet.create({
     color: Colors.lightText,
     marginLeft: 4,
   },
-  list: {
+  resultsContainer: {
     padding: Layout.spacing.l,
   },
-  card: {
-    marginBottom: Layout.spacing.l,
+  categoriesContainer: {
+    flexDirection: "row",
+    padding: 16,
+    borderBottomWidth: 1,
+    borderBottomColor: "#eee",
   },
-  emptyContainer: {
-    alignItems: "center",
-    justifyContent: "center",
-    paddingVertical: Layout.spacing.xl,
+  categoryButton: {
+    paddingHorizontal: 16,
+    paddingVertical: 8,
+    borderRadius: 20,
+    backgroundColor: "#f0f0f0",
+    marginRight: 8,
   },
-  emptyText: {
-    fontSize: 18,
-    fontWeight: "bold",
-    color: Colors.text,
-    marginBottom: Layout.spacing.s,
-  },
-  emptySubtext: {
+  categoryText: {
     fontSize: 14,
-    color: Colors.lightText,
+    color: "#333",
+  },
+  filtersContainer: {
+    padding: 16,
+    borderBottomWidth: 1,
+    borderBottomColor: "#eee",
+  },
+  noResultsContainer: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+    padding: 16,
+  },
+  noResultsText: {
+    fontSize: 18,
+    fontWeight: "600",
+    color: "#333",
+    marginBottom: 8,
+  },
+  noResultsSubtext: {
+    fontSize: 14,
+    color: "#666",
+    textAlign: "center",
   },
 });

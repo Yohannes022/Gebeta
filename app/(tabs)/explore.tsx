@@ -1,13 +1,13 @@
 import React, { useState } from "react";
-import { 
-  StyleSheet, 
-  Text, 
-  View, 
-  ScrollView, 
+import {
+  StyleSheet,
+  Text,
+  View,
+  ScrollView,
   TouchableOpacity,
   FlatList,
   Image,
-  Dimensions
+  Dimensions,
 } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { useRouter } from "expo-router";
@@ -17,7 +17,7 @@ import Layout from "@/constants/layout";
 import { categories } from "@/mocks/categories";
 import { useExperiencesStore } from "@/store/experiences-store";
 import ExperienceCard from "@/components/ExperianceCard";
-import FilterModal from "@/components/FilterModal";
+import { FilterModal } from "@/components/FilterModal";
 
 const { width } = Dimensions.get("window");
 const CARD_WIDTH = width * 0.7;
@@ -26,11 +26,11 @@ export default function ExploreScreen() {
   const router = useRouter();
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
   const [isFilterVisible, setIsFilterVisible] = useState(false);
-  
-  const { 
-    experiences, 
+
+  const {
+    experiences,
     setSelectedCategory: storeSetSelectedCategory,
-    setFilters
+    setFilters,
   } = useExperiencesStore();
 
   const handleCategoryPress = (categoryId: string) => {
@@ -52,15 +52,19 @@ export default function ExploreScreen() {
     setFilters(filters);
   };
 
-  const filteredExperiences = selectedCategory 
-    ? experiences.filter(exp => exp.category === categories.find(c => c.id === selectedCategory)?.name)
+  const filteredExperiences = selectedCategory
+    ? experiences.filter(
+        (exp) =>
+          exp.category ===
+          categories.find((c) => c.id === selectedCategory)?.name
+      )
     : experiences;
 
   return (
     <SafeAreaView style={styles.container} edges={["top"]}>
       <View style={styles.header}>
         <Text style={styles.title}>Explore</Text>
-        <TouchableOpacity 
+        <TouchableOpacity
           style={styles.filterButton}
           onPress={() => setIsFilterVisible(true)}
         >
@@ -73,8 +77,8 @@ export default function ExploreScreen() {
         {/* Categories */}
         <View style={styles.categoriesSection}>
           <Text style={styles.sectionTitle}>Categories</Text>
-          <ScrollView 
-            horizontal 
+          <ScrollView
+            horizontal
             showsHorizontalScrollIndicator={false}
             contentContainerStyle={styles.categoriesContainer}
           >
@@ -83,18 +87,20 @@ export default function ExploreScreen() {
                 key={category.id}
                 style={[
                   styles.categoryCard,
-                  selectedCategory === category.id && styles.selectedCategoryCard
+                  selectedCategory === category.id &&
+                    styles.selectedCategoryCard,
                 ]}
                 onPress={() => handleCategoryPress(category.id)}
               >
-                <Image 
-                  source={{ uri: category.image }} 
+                <Image
+                  source={{ uri: category.image }}
                   style={styles.categoryImage}
                 />
-                <Text 
+                <Text
                   style={[
                     styles.categoryName,
-                    selectedCategory === category.id && styles.selectedCategoryName
+                    selectedCategory === category.id &&
+                      styles.selectedCategoryName,
                   ]}
                 >
                   {category.name}
@@ -107,14 +113,16 @@ export default function ExploreScreen() {
         {/* Featured Locations */}
         <View style={styles.section}>
           <Text style={styles.sectionTitle}>Featured Locations</Text>
-          <ScrollView 
-            horizontal 
+          <ScrollView
+            horizontal
             showsHorizontalScrollIndicator={false}
             contentContainerStyle={styles.horizontalList}
           >
             <TouchableOpacity style={styles.locationCard}>
-              <Image 
-                source={{ uri: "https://images.unsplash.com/photo-1563245372-f21724e3856d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" }} 
+              <Image
+                source={{
+                  uri: "https://images.unsplash.com/photo-1563245372-f21724e3856d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+                }}
                 style={styles.locationImage}
               />
               <View style={styles.locationOverlay}>
@@ -122,10 +130,12 @@ export default function ExploreScreen() {
                 <Text style={styles.locationCount}>24 experiences</Text>
               </View>
             </TouchableOpacity>
-            
+
             <TouchableOpacity style={styles.locationCard}>
-              <Image 
-                source={{ uri: "https://images.unsplash.com/photo-1540541338287-41700207dee6?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" }} 
+              <Image
+                source={{
+                  uri: "https://images.unsplash.com/photo-1540541338287-41700207dee6?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+                }}
                 style={styles.locationImage}
               />
               <View style={styles.locationOverlay}>
@@ -133,10 +143,12 @@ export default function ExploreScreen() {
                 <Text style={styles.locationCount}>12 experiences</Text>
               </View>
             </TouchableOpacity>
-            
+
             <TouchableOpacity style={styles.locationCard}>
-              <Image 
-                source={{ uri: "https://images.unsplash.com/photo-1523805009345-7448845a9e53?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" }} 
+              <Image
+                source={{
+                  uri: "https://images.unsplash.com/photo-1523805009345-7448845a9e53?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+                }}
                 style={styles.locationImage}
               />
               <View style={styles.locationOverlay}>
@@ -151,7 +163,9 @@ export default function ExploreScreen() {
         <View style={styles.section}>
           <Text style={styles.sectionTitle}>
             {selectedCategory
-              ? `${categories.find(c => c.id === selectedCategory)?.name} Experiences`
+              ? `${
+                  categories.find((c) => c.id === selectedCategory)?.name
+                } Experiences`
               : "All Experiences"}
           </Text>
           {filteredExperiences.map((experience) => (

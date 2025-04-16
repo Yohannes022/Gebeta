@@ -106,13 +106,14 @@ export interface User {
     filters: {
       minPrice: number | null;
       maxPrice: number | null;
-      duration: number | null;
+      duration: string | null;
       guests: number | null;
     };
     setSearchQuery: (query: string) => void;
     setSelectedCategory: (category: string | null) => void;
     setFilters: (filters: any) => void;
-    getExperienceById: (id: string) => Experience | undefined;
+    getFilteredExperiences: () => Experience[];
+    getExperienceById: (id: string) => Experience | null;
   }
   
   export interface BookingsState {

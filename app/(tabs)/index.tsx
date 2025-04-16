@@ -66,7 +66,7 @@ export default function HomeScreen() {
           onPress={handleSearchPress}
           activeOpacity={0.8}
         >
-          <Search size={20} color={Colors.lightText} />
+          <Search size={17} color={Colors.text} />
           <Text style={styles.searchText}>Search experiences...</Text>
         </TouchableOpacity>
 
@@ -162,31 +162,35 @@ const styles = StyleSheet.create({
   searchBar: {
     flexDirection: "row",
     alignItems: "center",
+    justifyContent: "center",
     marginHorizontal: Layout.spacing.l,
     marginVertical: Layout.spacing.m,
     paddingHorizontal: Layout.spacing.m,
     paddingVertical: Layout.spacing.s,
     backgroundColor: Colors.card,
-    borderRadius: Layout.borderRadius.medium,
-    borderWidth: 1,
+    borderRadius: Layout.borderRadius.xl,
+    borderWidth: StyleSheet.hairlineWidth,
     borderColor: Colors.border,
     shadowColor: Colors.shadow,
-    shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.1,
+    shadowOffset: { width: 3, height: 5 },
+    shadowOpacity: 1.1,
     shadowRadius: 4,
     elevation: 2,
+    height: 50,
   },
   searchText: {
     marginLeft: Layout.spacing.s,
-    color: Colors.lightText,
+    color: Colors.text,
     fontSize: 16,
+    fontWeight: "200",
+    letterSpacing: 0.5,
   },
   categoriesContainer: {
     marginTop: Layout.spacing.m,
     paddingHorizontal: Layout.spacing.l,
   },
   categoriesList: {
-    paddingVertical: Layout.spacing.m,
+    paddingVertical: Layout.spacing.l,
   },
   section: {
     marginTop: Layout.spacing.l,

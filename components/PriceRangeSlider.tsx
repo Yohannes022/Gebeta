@@ -1,58 +1,57 @@
-import React from "react";
-import { StyleSheet, View, Platform } from "react-native";
-import Colors from "@/constants/colors";
-import Layout from "@/constants/layout";
+import { View, Text, StyleSheet } from "react-native";
+import { useState } from "react";
+import Slider from "@react-native-community/slider";
 
-// This is a simplified slider component for demo purposes
-// In a real app, you would use a proper slider component like @react-native-community/slider
 interface PriceRangeSliderProps {
-  range: [number, number];
-  onRangeChange: (range: [number, number]) => void;
-  min: number;
-  max: number;
+  onValueChange: (filters: any) => void;
 }
 
-export default function PriceRangeSlider({
-  range,
-  onRangeChange,
-  min,
-  max,
-}: PriceRangeSliderProps) {
-  // This is just a placeholder component
-  // In a real app, you would implement a proper slider
+export function PriceRangeSlider({ onValueChange }: PriceRangeSliderProps) {
+  const [minPrice, setMinPrice] = useState(0);
+  const [maxPrice, setMaxPrice] = useState(1000);
+
+  const handleMinPriceChange = (value: number) => {
+    setMinPrice(value);
+    onValueChange({ minPrice: value, maxPrice });
+  };
+
+  const handleMaxPriceChange = (value: number) => {
+    setMaxPrice(value);
+    onValueChange({ minPrice, maxPrice: value });
+  };
+
   return (
     <View style={styles.container}>
-      <View style={styles.track}>
-        <View></View>
-        <View></View>
-        <View></View>
-        {/*
-         <View
-          style={[
-            styles.selectedTrack,
-            {
-              left: ${((range[0] - min) / (max - min)) * 100}%,
-              right: ${100 - ((range[1] - min) / (max - min)) * 100}%,
-            },
-          ]}></View>
-
-          
-      <View
-        style={[
-          styles.thumb,
-          {
-            left: ${((range[0] - min) / (max - min)) * 100}%,
-          },
-        ]}
-      ></View>
-      <View
-        style={[
-          styles.thumb,
-          {
-            left: ${((range[1] - min) / (max - min)) * 100}%,
-          },
-        ]}
-      > */}
+      <Text style={styles.title}>Price Range</Text>
+      <View style={styles.sliderContainer}>
+        <Text style={styles.priceText}>${minPrice}</Text>
+        <Slider
+          style={styles.slider}
+          minimumValue={0}
+          maximumValue={1000}
+          step={10}
+          value={minPrice}
+          onValueChange={handleMinPriceChange}
+          minimumTrackTintColor="#007AFF"
+          maximumTrackTintColor="#d3d3d3"
+          thumbTintColor="#007AFF"
+        />
+        <Text style={styles.priceText}>${maxPrice}</Text>
+      </View>
+      <View style={styles.sliderContainer}>
+        <Text style={styles.priceText}>${minPrice}</Text>
+        <Slider
+          style={styles.slider}
+          minimumValue={0}
+          maximumValue={1000}
+          step={10}
+          value={maxPrice}
+          onValueChange={handleMaxPriceChange}
+          minimumTrackTintColor="#007AFF"
+          maximumTrackTintColor="#d3d3d3"
+          thumbTintColor="#007AFF"
+        />
+        <Text style={styles.priceText}>${maxPrice}</Text>
       </View>
     </View>
   );
@@ -60,30 +59,27 @@ export default function PriceRangeSlider({
 
 const styles = StyleSheet.create({
   container: {
+    marginBottom: 16,
+  },
+  title: {
+    fontSize: 16,
+    fontWeight: "600",
+    marginBottom: 8,
+    color: "#333",
+  },
+  sliderContainer: {
+    flexDirection: "row",
+    alignItems: "center",
+    marginBottom: 8,
+  },
+  slider: {
+    flex: 1,
     height: 40,
-    justifyContent: "center",
-    position: "relative",
   },
-  track: {
-    height: 4,
-    backgroundColor: Colors.border,
-    borderRadius: 2,
-  },
-  selectedTrack: {
-    position: "absolute",
-    height: 4,
-    backgroundColor: Colors.primary,
-    borderRadius: 2,
-  },
-  thumb: {
-    position: "absolute",
-    width: 20,
-    height: 20,
-    borderRadius: 10,
-    backgroundColor: Colors.background,
-    borderWidth: 2,
-    borderColor: Colors.primary,
-    marginLeft: -10,
-    top: 10,
+  priceText: {
+    width: 60,
+    textAlign: "center",
+    fontSize: 14,
+    color: "#666",
   },
 });

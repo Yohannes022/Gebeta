@@ -37,12 +37,12 @@ export default function CategoryItem({ category, onPress }: CategoryItemProps) {
 const styles = StyleSheet.create({
   container: {
     alignItems: "center",
-    marginRight: Layout.spacing.l,
+    marginRight: Layout.spacing.m,
     width: 80,
   },
   imageContainer: {
-    width: 70,
-    height: 70,
+    width: 60,
+    height: 60,
     borderRadius: 35,
     overflow: "hidden",
     marginBottom: Layout.spacing.xs,
