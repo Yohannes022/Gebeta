@@ -1,0 +1,92 @@
+{
+    "recipes": [
+      {
+        "id": "1",
+        "title": "Traditional Doro Wat",
+        "description": "Doro Wat is a spicy Ethiopian chicken stew that's perfect for special occasions. This recipe uses berbere spice blend and niter kibbeh (Ethiopian spiced butter) for authentic flavor.",
+        "imageUrl": "https://images.unsplash.com/photo-1567364816519-cbc9c4ffe1eb?q=80&w=1000",
+        "prepTime": 30,
+        "cookTime": 90,
+        "servings": 6,
+        "difficulty": "medium",
+        "ingredients": [
+          { "id": "1", "name": "chicken legs and thighs", "amount": "2", "unit": "lbs" },
+          { "id": "2", "name": "lemon juice", "amount": "2", "unit": "tbsp" },
+          { "id": "3", "name": "red onions", "amount": "4", "unit": "large" },
+          { "id": "4", "name": "garlic", "amount": "6", "unit": "cloves" },
+          { "id": "5", "name": "ginger", "amount": "2", "unit": "inches" },
+          { "id": "6", "name": "berbere spice", "amount": "1/4", "unit": "cup" },
+          { "id": "7", "name": "niter kibbeh", "amount": "1/2", "unit": "cup" },
+          { "id": "8", "name": "hard-boiled eggs", "amount": "6", "unit": "" },
+          { "id": "9", "name": "salt", "amount": "", "unit": "to taste" }
+        ],
+        "steps": [
+          {
+            "id": "1",
+            "description": "Clean the chicken and place in a bowl. Add lemon juice and let sit for 30 minutes."
+          },
+          {
+            "id": "2",
+            "description": "Finely dice the onions and cook in a dry pot on medium heat until they start to brown, about 20-25 minutes."
+          },
+          {
+            "id": "3",
+            "description": "Add minced garlic and ginger, cook for another 5 minutes until fragrant."
+          },
+          {
+            "id": "4",
+            "description": "Add berbere spice and niter kibbeh, stir well to combine. Cook for 5 minutes."
+          },
+          {
+            "id": "5",
+            "description": "Add the chicken pieces and coat well with the sauce. Add enough water to barely cover the chicken."
+          },
+          {
+            "id": "6",
+            "description": "Simmer covered for about 45 minutes, until chicken is tender and sauce has thickened."
+          },
+          {
+            "id": "7",
+            "description": "Add the hard-boiled eggs and simmer for another 10 minutes to allow the eggs to absorb the flavors."
+          },
+          {
+            "id": "8",
+            "description": "Serve hot with injera bread."
+          }
+        ],
+        "region": "Amhara",
+        "tags": ["traditional", "spicy", "dinner", "festive"],
+        "authorId": "1",
+        "authorName": "Makeda Haile",
+        "authorAvatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=200",
+        "createdAt": "2023-01-15T12:00:00Z",
+        "likes": 245,
+        "isLiked": false,
+        "isSaved": false,
+        "comments": [
+          {
+            "id": "c1",
+            "userId": "2",
+            "userName": "Abebe Kebede",
+            "userAvatar": "https://images.unsplash.com/photo-1566492031773-4f4e44671857?q=80&w=200",
+            "text": "I tried this recipe and it was delicious! My family loved it.",
+            "createdAt": "2023-02-10T14:30:00Z"
+          },
+          {
+            "id": "c2",
+            "userId": "4",
+            "userName": "Dawit Mulugeta",
+            "userAvatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200",
+            "text": "The berbere spice amount was perfect. Not too spicy but full of flavor.",
+            "createdAt": "2023-03-05T09:15:00Z"
+          }
+        ],
+        "ratings": [
+          { "userId": "2", "rating": 5 },
+          { "userId": "3", "rating": 4 },
+          { "userId": "4", "rating": 5 }
+        ]
+      }
+    ]
+  }
+  
