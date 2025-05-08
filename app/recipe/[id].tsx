@@ -59,7 +59,7 @@ export default function RecipeDetailScreen() {
   if (!recipe) {
     return (
       <View style={styles.notFound}>
-        <Text style={{fontSize: 24,
+        <Text style={{fontSize: 20,
     fontWeight: "700",
     letterSpacing: 0.2,
     color: "#000000",}}>Recipe not found</Text>
@@ -534,7 +534,7 @@ const styles = StyleSheet.create({
     padding: 12,
   },
   optionText: {
-    fontSize: 16,
+    fontSize: 14,
     lineHeight: 24,
     marginLeft: 12,
   },
@@ -561,7 +561,7 @@ const styles = StyleSheet.create({
     marginRight: 12,
   },
   authorName: {
-    fontSize: 16,
+    fontSize: 14,
     lineHeight: 24,
     fontWeight: "500",
   },
@@ -575,7 +575,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   ratingText: {
-    fontSize: 16,
+    fontSize: 14,
     lineHeight: 24,
     color: "#8E8E8E",
     marginLeft: 8,
@@ -591,7 +591,7 @@ const styles = StyleSheet.create({
     marginRight: 20,
   },
   metaText: {
-    fontSize: 16,
+    fontSize: 14,
     lineHeight: 24,
     color: "#8E8E8E",
     marginLeft: 6,
@@ -604,7 +604,7 @@ const styles = StyleSheet.create({
     borderRadius: 12,
   },
   difficultyText: {
-    fontSize: 12,
+    fontSize: 11,
     lineHeight: 16,
     color: "#6A8E7F",
     fontWeight: "600",
@@ -624,7 +624,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   actionText: {
-    fontSize: 16,
+    fontSize: 14,
     lineHeight: 24,
     marginLeft: 8,
     color: "#8E8E8E",
@@ -639,7 +639,7 @@ const styles = StyleSheet.create({
     marginBottom: 16,
   },
   description: {
-    fontSize: 16,
+    fontSize: 14,
     lineHeight: 24,
   },
   regionContainer: {
@@ -648,13 +648,13 @@ const styles = StyleSheet.create({
     marginBottom: 16,
   },
   regionLabel: {
-    fontSize: 16,
+    fontSize: 14,
     lineHeight: 24,
     fontWeight: "600",
     marginRight: 8,
   },
   regionText: {
-    fontSize: 16,
+    fontSize: 14,
     lineHeight: 24,
   },
   tagsContainer: {
@@ -671,7 +671,7 @@ const styles = StyleSheet.create({
     borderRadius: 12,
   },
   rateRecipeTitle: {
-    fontSize: 18,
+    fontSize: 14,
     fontWeight: "600",
     marginBottom: 12,
   },
@@ -692,7 +692,7 @@ const styles = StyleSheet.create({
     paddingRight: 48,
     minHeight: 44,
     maxHeight: 100,
-    fontSize: 16,
+    fontSize: 14,
     lineHeight: 24,
   },
   sendButton: {
@@ -709,7 +709,7 @@ const styles = StyleSheet.create({
     backgroundcolor: "#8E8E8E",
   },
   noCommentsText: {
-    fontSize: 16,
+    fontSize: 14,
     lineHeight: 24,
     color: "#8E8E8E",
     textAlign: "center",
@@ -737,17 +737,17 @@ const styles = StyleSheet.create({
     marginBottom: 4,
   },
   commentUserName: {
-    fontSize: 16,
+    fontSize: 14,
     lineHeight: 24,
     fontWeight: "600",
   },
   commentDate: {
-    fontSize: 12,
+    fontSize: 11,
     lineHeight: 16,
     color: "#8E8E8E",
   },
   commentText: {
-    fontSize: 16,
+    fontSize: 14,
     lineHeight: 24,
   },
   ingredientItem: {
@@ -763,7 +763,7 @@ const styles = StyleSheet.create({
     marginRight: 12,
   },
   ingredientText: {
-    fontSize: 16,
+    fontSize: 14,
     lineHeight: 24,
     flex: 1,
   },
@@ -789,7 +789,7 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   stepText: {
-    fontSize: 16,
+    fontSize: 14,
     lineHeight: 24,
     marginBottom: 12,
   },

@@ -152,6 +152,7 @@ export default function VerifyScreen() {
               loading={isLoading}
               fullWidth
               style={styles.button}
+              textStyle={styles.buttonText}
             />
 
             <View style={styles.resendContainer}>
@@ -188,13 +189,13 @@ const styles = StyleSheet.create({
     marginBottom: 40,
   },
   title: {
-    fontSize: 24,
+    fontSize: 20,
     fontWeight: "700",
     letterSpacing: 0.2,
     marginBottom: 8,
   },
   subtitle: {
-    fontSize: 16,
+    fontSize: 14,
     lineHeight: 24,
     color: "#8E8E8E",
   },
@@ -206,7 +207,7 @@ const styles = StyleSheet.create({
   otpInput: {
     width: 50,
     height: 56,
-    borderWidth: 1,
+    borderWidth: StyleSheet.hairlineWidth,
     bordercolor: "#DBDBDB",
     borderRadius: 8,
     textAlign: "center",
@@ -218,11 +219,16 @@ const styles = StyleSheet.create({
     borderColor: "#3E7EA6",
     backgroundColor: "#FFFFFF" + "10",
   },
+  buttonText: {
+    fontSize: 14,
+    fontWeight: "700",
+    color: "#000000",
+  },
   button: {
     marginBottom: 24,
   },
   errorText: {
-    fontSize: 16,
+    fontSize: 14,
     lineHeight: 24,
     color: "#ED4956",
     marginBottom: 16,
@@ -233,17 +239,17 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   resendText: {
-    fontSize: 16,
+    fontSize: 14,
     lineHeight: 24,
     color: "#8E8E8E",
   },
   timerText: {
-    fontSize: 16,
+    fontSize: 14,
     lineHeight: 24,
     color: "#8E8E8E",
   },
   resendButton: {
-    fontSize: 16,
+    fontSize: 14,
     lineHeight: 24,
     color: "#3E7EA6",
     fontWeight: "600",

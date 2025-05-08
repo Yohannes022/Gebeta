@@ -123,6 +123,7 @@ export default function HomeScreen() {
               title={tag}
               selected={selectedCategory === tag}
               onPress={() => handleCategoryPress(tag)}
+              
             />
             ))}
         </ScrollView>
@@ -223,7 +224,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#FFFFFF",
   },
   loadingText: {
-    fontSize: 16,
+    fontSize: 14,
     lineHeight: 24,
     marginTop: 16,
     color: "#8E8E8E",
@@ -243,7 +244,7 @@ const styles = StyleSheet.create({
     marginBottom: 4,
   },
   subtitle: {
-    fontSize: 16,
+    fontSize: 14,
     lineHeight: 24,
     color: "#8E8E8E",
   },
@@ -297,7 +298,7 @@ const styles = StyleSheet.create({
     padding: 12,
   },
   restaurantName: {
-    fontSize: 18,
+    fontSize: 14,
     fontWeight: "600",
     marginBottom: 8,
   },
@@ -309,7 +310,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   ratingText: {
-    fontSize: 16,
+    fontSize: 14,
     lineHeight: 24,
     fontWeight: "600",
     marginLeft: 4,
@@ -319,7 +320,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   locationText: {
-    fontSize: 12,
+    fontSize: 11,
     lineHeight: 16,
     color: "#8E8E8E",
     marginLeft: 4,
@@ -327,6 +328,7 @@ const styles = StyleSheet.create({
   },
   popularContainer: {
     marginBottom: 24,
+    marginLeft: 20,
   },
   sectionHeader: {
     flexDirection: "row",
@@ -340,7 +342,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   seeAllText: {
-    fontSize: 16,
+    fontSize: 14,
     lineHeight: 24,
     color: "#3E7EA6",
     fontWeight: "600",

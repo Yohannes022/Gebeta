@@ -116,26 +116,26 @@ const styles = StyleSheet.create({
     marginRight: 8,
   },
   quantity: {
-    fontSize: 16,
+    fontSize: 14,
     color: "#000000",
     lineHeight: 24,
     fontWeight: "600",
     marginRight: 8,
   },
   name: {
-    fontSize: 16,
+    fontSize: 14,
     color: "#000000",
     lineHeight: 24,
     flex: 1,
   },
   price: {
-    fontSize: 16,
+    fontSize: 14,
     color: "#000000",
     lineHeight: 24,
     fontWeight: "600",
   },
   instructions: {
-    fontSize: 12,
+    fontSize: 11,
     color: "#8E8E8E",
     lineHeight: 16,
     color: "#8E8E8E",
@@ -152,7 +152,7 @@ const styles = StyleSheet.create({
     paddingVertical: 6,
   },
   instructionsButtonText: {
-    fontSize: 12,
+    fontSize: 11,
     color: "#8E8E8E",
     lineHeight: 16,
     fontWeight: "500",
@@ -171,7 +171,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   quantityText: {
-    fontSize: 16,
+    fontSize: 14,
     color: "#000000",
     lineHeight: 24,
     marginHorizontal: 12,

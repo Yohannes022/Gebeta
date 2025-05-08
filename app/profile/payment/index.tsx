@@ -135,12 +135,12 @@ const styles = StyleSheet.create({
     borderRadius: 12,
     padding: 16,
     marginBottom: 20,
-    borderWidth: 1,
+    borderWidth: StyleSheet.hairlineWidth,
     borderColor: "#3E7EA6",
     borderStyle: "dashed",
   },
   addButtonText: {
-    fontSize: 16,
+    fontSize: 14,
     color: "#000000",
     lineHeight: 24,
     // color: "#3E7EA6",
@@ -163,7 +163,7 @@ const styles = StyleSheet.create({
     marginBottom: 8,
   },
   emptyText: {
-    fontSize: 16,
+    fontSize: 14,
     color: "#000000",
     lineHeight: 24,
     // color: "#8E8E8E",

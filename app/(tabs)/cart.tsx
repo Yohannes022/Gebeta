@@ -79,6 +79,7 @@ export default function CartScreen() {
           onPress={() => router.push("/restaurants")}
           variant="primary"
           style={styles.browseButton}
+          textStyle={styles.buttonText}
         />
       </View>
     );
@@ -176,7 +177,7 @@ const styles = StyleSheet.create({
     padding: 20,
   },
   emptyTitle: {
-    fontSize: 24,
+    fontSize: 20,
     fontWeight: "700",
     color: "#000000",
     letterSpacing: 0.2,
@@ -184,7 +185,7 @@ const styles = StyleSheet.create({
     marginBottom: 8,
   },
   emptyText: {
-    fontSize: 16,
+    fontSize: 14,
     color: "#000000",
     lineHeight: 24,
     // color: "#8E8E8E",
@@ -193,6 +194,16 @@ const styles = StyleSheet.create({
   },
   browseButton: {
     marginTop: 16,
+    paddingVertical: 12,
+    paddingHorizontal: 44,
+    borderRadius: 13,
+    backgroundColor: "transparent",
+    borderWidth: StyleSheet.hairlineWidth,
+  },
+  buttonText: {
+    fontSize: 14,
+    fontWeight: "700",
+    color: "#000000",
   },
   restaurantContainer: {
     flexDirection: "row",
@@ -216,13 +227,13 @@ const styles = StyleSheet.create({
     justifyContent: "center",
   },
   restaurantName: {
-    fontSize: 18,
+    fontSize: 14,
     fontWeight: "600",
     color: "#000000",
     marginBottom: 4,
   },
   addMoreText: {
-    fontSize: 16,
+    fontSize: 14,
     color: "#000000",
     lineHeight: 24
     // color: "#3E7EA6",
@@ -243,7 +254,7 @@ const styles = StyleSheet.create({
     letterSpacing: 0.2,
   },
   clearText: {
-    fontSize: 16,
+    fontSize: 14,
     color: "#000000",
     lineHeight: 24
     // color: "#ED4956",
@@ -268,13 +279,13 @@ const styles = StyleSheet.create({
     marginBottom: 12,
   },
   summaryLabel: {
-    fontSize: 16,
+    fontSize: 14,
     color: "#000000",
     lineHeight: 24,
     // color: "#8E8E8E",
   },
   summaryValue: {
-    fontSize: 16,
+    fontSize: 14,
     color: "#000000",
     lineHeight: 24,
   },
@@ -285,12 +296,12 @@ const styles = StyleSheet.create({
     marginTop: 4,
   },
   totalLabel: {
-    fontSize: 18,
+    fontSize: 14,
     fontWeight: "600",
     color: "#000000",
   },
   totalValue: {
-    fontSize: 18,
+    fontSize: 14,
     fontWeight: "600",
     color: "#000000",
     // color: "#3E7EA6",

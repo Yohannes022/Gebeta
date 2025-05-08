@@ -499,7 +499,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#FFFFFF",
   },
   loadingText: {
-    fontSize: 16,
+    fontSize: 14,
     lineHeight: 24,
     marginTop: 16,
     color: "#8E8E8E",
@@ -528,7 +528,7 @@ const styles = StyleSheet.create({
     marginLeft: 8,
   },
   addText: {
-    fontSize: 16,
+    fontSize: 14,
     lineHeight: 24,
     color: "#3E7EA6",
     fontWeight: "600",
@@ -544,7 +544,7 @@ const styles = StyleSheet.create({
     padding: 20,
   },
   emptyText: {
-    fontSize: 16,
+    fontSize: 14,
     lineHeight: 24,
     color: "#8E8E8E",
     marginBottom: 12,
@@ -564,7 +564,7 @@ const styles = StyleSheet.create({
     borderRadius: 8,
     marginRight: 8,
     marginBottom: 8,
-    borderWidth: 1,
+    borderWidth: StyleSheet.hairlineWidth,
     bordercolor: "#DBDBDB",
   },
   selectedTipButton: {
@@ -572,7 +572,7 @@ const styles = StyleSheet.create({
     borderColor: "#3E7EA6",
   },
   tipButtonText: {
-    fontSize: 16,
+    fontSize: 14,
     lineHeight: 24,
     fontWeight: "500",
   },
@@ -590,11 +590,11 @@ const styles = StyleSheet.create({
     backgroundColor: "#F5F5F5",
     borderRadius: 8,
     padding: 12,
-    fontSize: 16,
+    fontSize: 14,
     lineHeight: 24,
   },
   currencyText: {
-    fontSize: 16,
+    fontSize: 14,
     lineHeight: 24,
     marginLeft: 12,
   },
@@ -616,12 +616,12 @@ const styles = StyleSheet.create({
     marginBottom: 12,
   },
   summaryLabel: {
-    fontSize: 16,
+    fontSize: 14,
     lineHeight: 24,
     color: "#8E8E8E",
   },
   summaryValue: {
-    fontSize: 16,
+    fontSize: 14,
     lineHeight: 24,
   },
   totalRow: {
@@ -631,11 +631,11 @@ const styles = StyleSheet.create({
     marginTop: 4,
   },
   totalLabel: {
-    fontSize: 18,
+    fontSize: 14,
     fontWeight: "600",
   },
   totalValue: {
-    fontSize: 18,
+    fontSize: 14,
     fontWeight: "600",
     color: "#3E7EA6",
   },
@@ -645,13 +645,13 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     marginTop: 20,
     paddingVertical: 12,
-    borderWidth: 1,
+    borderWidth: StyleSheet.hairlineWidth,
     borderColor: "#3E7EA6",
     borderRadius: 8,
     backgroundColor: "#FFFFFF" + "10",
   },
   receiptButtonText: {
-    fontSize: 16,
+    fontSize: 14,
     lineHeight: 24,
     color: "#3E7EA6",
     fontWeight: "600",

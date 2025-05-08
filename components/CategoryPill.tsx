@@ -34,18 +34,20 @@ const styles = StyleSheet.create({
     paddingHorizontal: 16,
     paddingVertical: 8,
     borderRadius: 20,
+    borderWidth: StyleSheet.hairlineWidth,
     backgroundColor: "#F5F5F5",
     marginRight: 8,
     marginBottom: 8,
   },
   selectedPill: {
-    backgroundColor: "#FFFFFF",
+    backgroundColor: "#000000",
   },
   pillText: {
-    fontSize: 12,
+    fontSize: 12.5,
     color: "#8E8E8E",
     lineHeight: 16,
     fontWeight: "500",
+    textTransform: "capitalize",
     // color: "#000000",
   },
   selectedPillText: {

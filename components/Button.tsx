@@ -45,7 +45,7 @@ export default function Button({
   const textStyles = [
     // typography.button,
     {
-      fontSize: 16,
+      fontSize: 14,
       fontWeight: "600",
       letterSpacing: 0.5,
     },
@@ -90,7 +90,7 @@ const styles = StyleSheet.create({
   },
   outline: {
     backgroundColor: "transparent",
-    borderWidth: 1,
+    borderWidth: StyleSheet.hairlineWidth,
     borderColor: "#3E7EA6",
   },
   text: {

@@ -1,16 +1,16 @@
 import { Send, User as UserIcon } from "lucide-react-native";
 import React, { useEffect, useRef, useState } from "react";
 import {
-    ActivityIndicator,
-    FlatList,
-    Keyboard,
-    KeyboardAvoidingView,
-    Platform,
-    StyleSheet,
-    Text,
-    TextInput,
-    TouchableOpacity,
-    View,
+  ActivityIndicator,
+  FlatList,
+  Keyboard,
+  KeyboardAvoidingView,
+  Platform,
+  StyleSheet,
+  Text,
+  TextInput,
+  TouchableOpacity,
+  View,
 } from "react-native";
 
 
@@ -127,7 +127,7 @@ export default function ChatbotScreen() {
         <View style={styles.avatarContainer}>
           {isUser ? (
             <View style={styles.userAvatar}>
-              <UserIcon size={16} color={"#FFFFFF"} />
+              <UserIcon size={18} color={"#FFFFFF"} />
             </View>
           ) : (
             <View style={styles.botAvatar}>
@@ -214,7 +214,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 20,
     backgroundColor: "#FFFFFF",
     borderBottomWidth: 1,
-    borderBottomcolor: "#DBDBDB",
+    borderBottomColor: "#DBDBDB",
   },
   headerTitle: {
     fontSize: 20,
@@ -254,12 +254,12 @@ const styles = StyleSheet.create({
     width: 32,
     height: 32,
     borderRadius: 16,
-    backgroundColor: "#D9A566",
+    backgroundColor: "#000000",
     justifyContent: "center",
     alignItems: "center",
   },
   botAvatarText: {
-    fontSize: 16,
+    fontSize: 14,
   },
   messageBubble: {
     maxWidth: "75%",
@@ -268,7 +268,7 @@ const styles = StyleSheet.create({
     marginBottom: 4,
   },
   userMessageBubble: {
-    backgroundColor: "#FFFFFF",
+    backgroundColor: "#000000",
     borderBottomRightRadius: 4,
   },
   botMessageBubble: {
@@ -276,7 +276,7 @@ const styles = StyleSheet.create({
     borderBottomLeftRadius: 4,
   },
   messageText: {
-    fontSize: 16,
+    fontSize: 14,
     lineHeight: 24,
     color: "#000000",
   },
@@ -284,7 +284,7 @@ const styles = StyleSheet.create({
     color: "#FFFFFF",
   },
   timestamp: {
-    fontSize: 12,
+    fontSize: 11,
     lineHeight: 16,
     color: "#8E8E8E",
     marginTop: 4,
@@ -305,7 +305,7 @@ const styles = StyleSheet.create({
     marginBottom: 16,
   },
   loadingText: {
-    fontSize: 16,
+    fontSize: 14,
     lineHeight: 24,
     color: "#8E8E8E",
     marginLeft: 8,
@@ -325,7 +325,7 @@ const styles = StyleSheet.create({
     paddingVertical: 10,
     paddingRight: 48,
     maxHeight: 100,
-    fontSize: 16,
+    fontSize: 14,
     lineHeight: 24,
   },
   sendButton: {

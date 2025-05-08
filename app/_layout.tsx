@@ -60,7 +60,7 @@ function RootLayoutNav() {
         headerStyle: {
           backgroundColor: "#FFFFFF",
         },
-        headerTintcolor: "#000000",
+        headerTintColor: "#000000",
         headerShadowVisible: false,
         headerBackTitle: "Back",
         contentStyle: {

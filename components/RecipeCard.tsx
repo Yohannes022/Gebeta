@@ -2,14 +2,15 @@ import { Image } from "expo-image";
 import { useRouter } from "expo-router";
 import { Bookmark, Clock, Heart, Users } from "lucide-react-native";
 import React from "react";
+import { useNavigation } from "@react-navigation/native";
 import {
   Dimensions,
   StyleSheet,
   Text,
   TouchableOpacity,
   View,
+  Button,
 } from "react-native";
- 
 
 import { useRecipeStore } from "@/store/recipeStore";
 import { Recipe } from "@/types/recipe";
@@ -43,19 +44,19 @@ export default function RecipeCard({
   };
 
   const totalTime = recipe.prepTime + recipe.cookTime;
-  
+
   const cardStyles = [
     styles.card,
     variant === "horizontal" && styles.horizontalCard,
     variant === "featured" && styles.featuredCard,
   ];
-  
+
   const imageStyles = [
     styles.image,
     variant === "horizontal" && styles.horizontalImage,
     variant === "featured" && styles.featuredImage,
   ];
-  
+
   const contentStyles = [
     styles.content,
     variant === "horizontal" && styles.horizontalContent,
@@ -68,40 +69,44 @@ export default function RecipeCard({
       onPress={handlePress}
       activeOpacity={0.9}
     >
+      
+
       <Image
         source={{ uri: recipe.imageUrl }}
         style={imageStyles}
         contentFit="cover"
         transition={300}
       />
-      
+
       {variant === "featured" && (
         <View style={styles.featuredBadge}>
           <Text style={styles.featuredText}>Featured</Text>
         </View>
       )}
-      
+
       <View style={contentStyles}>
         <View style={styles.header}>
           <Text
             style={[
-              variant === "featured" ? {
-                fontSize: 20,
-                fontWeight: "600",
-                color: "#000000",
-                letterSpacing: 0.2,
-              } : {
-                fontSize: 18,
-                fontWeight: "600",
-                color: "#000000",
-              },
+              variant === "featured"
+                ? {
+                    fontSize: 20,
+                    fontWeight: "600",
+                    color: "#000000",
+                    letterSpacing: 0.2,
+                  }
+                : {
+                    fontSize: 14,
+                    fontWeight: "600",
+                    color: "#000000",
+                  },
               styles.title,
             ]}
             numberOfLines={2}
           >
             {recipe.title}
           </Text>
-          
+
           <View style={styles.authorContainer}>
             <Image
               source={{ uri: recipe.authorAvatar }}
@@ -110,13 +115,13 @@ export default function RecipeCard({
             <Text style={styles.authorName}>{recipe.authorName}</Text>
           </View>
         </View>
-        
+
         {variant !== "horizontal" && (
           <Text style={styles.description} numberOfLines={2}>
             {recipe.description}
           </Text>
         )}
-        
+
         <View style={styles.footer}>
           <View style={styles.metaContainer}>
             <View style={styles.metaItem}>
@@ -128,22 +133,16 @@ export default function RecipeCard({
               <Text style={styles.metaText}>{recipe.servings}</Text>
             </View>
           </View>
-          
+
           <View style={styles.actions}>
-            <TouchableOpacity
-              style={styles.actionButton}
-              onPress={handleLike}
-            >
+            <TouchableOpacity style={styles.actionButton} onPress={handleLike}>
               <Heart
                 size={18}
                 color={recipe.isLiked ? "#3E7EA6" : "#8A8A8A"}
                 fill={recipe.isLiked ? "#3E7EA6" : "none"}
               />
             </TouchableOpacity>
-            <TouchableOpacity
-              style={styles.actionButton}
-              onPress={handleSave}
-            >
+            <TouchableOpacity style={styles.actionButton} onPress={handleSave}>
               <Bookmark
                 size={18}
                 color={recipe.isSaved ? "#D9A566" : "#8A8A8A"}
@@ -201,7 +200,7 @@ const styles = StyleSheet.create({
   },
   featuredText: {
     color: "#FFFFFF",
-    fontSize: 12,
+    fontSize: 11,
     fontWeight: "600",
   },
   content: {
@@ -230,13 +229,13 @@ const styles = StyleSheet.create({
     marginRight: 8,
   },
   authorName: {
-    fontSize: 12,
+    fontSize: 11,
     color: "#8E8E8E",
     lineHeight: 16,
     // color: "#8E8E8E",
   },
   description: {
-    fontSize: 16,
+    fontSize: 14,
     color: "#000000",
     lineHeight: 24,
     marginBottom: 12,
@@ -257,7 +256,7 @@ const styles = StyleSheet.create({
     marginRight: 16,
   },
   metaText: {
-    fontSize: 12,
+    fontSize: 11,
     color: "#8E8E8E",
     lineHeight: 16,
     marginLeft: 4,

@@ -102,7 +102,7 @@ const styles = StyleSheet.create({
     borderRadius: 12,
     padding: 16,
     marginBottom: 12,
-    borderWidth: 1,
+    borderWidth: StyleSheet.hairlineWidth,
     bordercolor: "#DBDBDB",
   },
   selectedContainer: {
@@ -120,7 +120,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   label: {
-    fontSize: 16,
+    fontSize: 14,
     color: "#000000",
     lineHeight: 24,
     fontWeight: "600",
@@ -137,7 +137,7 @@ const styles = StyleSheet.create({
     marginLeft: 8,
   },
   defaultText: {
-    fontSize: 12,
+    fontSize: 11,
     color: "#8E8E8E",
     lineHeight: 16,
     fontWeight: "600",
@@ -152,20 +152,20 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   address: {
-    fontSize: 16,
+    fontSize: 14,
     color: "#000000",
     lineHeight: 24,
     marginBottom: 4,
   },
   city: {
-    fontSize: 16,
+    fontSize: 14,
     color: "#000000",
     lineHeight: 24,
     marginBottom: 8,
     // color: "#8E8E8E",
   },
   instructions: {
-    fontSize: 12,
+    fontSize: 11,
     color: "#8E8E8E",
     lineHeight: 16,
     fontStyle: "italic",
@@ -184,7 +184,7 @@ const styles = StyleSheet.create({
     marginRight: 16,
   },
   actionText: {
-    fontSize: 12,
+    fontSize: 11,
     color: "#8E8E8E",
     lineHeight: 16,
     marginLeft: 4,

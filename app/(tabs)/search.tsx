@@ -356,7 +356,7 @@ const styles = StyleSheet.create({
     marginLeft: 8,
   },
   sortButtonText: {
-    fontSize: 16,
+    fontSize: 14,
     lineHeight: 24,
     marginHorizontal: 8,
   },
@@ -375,13 +375,13 @@ const styles = StyleSheet.create({
     paddingVertical: 12,
     paddingHorizontal: 16,
     borderBottomWidth: 1,
-    borderBottomcolor: "#DBDBDB",
+    borderBottomColor: "#DBDBDB",
   },
   selectedSortOption: {
     backgroundColor: "#FFFFFF" + "10",
   },
   sortOptionText: {
-    fontSize: 16,
+    fontSize: 14,
     lineHeight: 24,
     color: "#000000",
   },
@@ -410,11 +410,11 @@ const styles = StyleSheet.create({
     marginBottom: 12,
   },
   filterTitle: {
-    fontSize: 18,
+    fontSize: 14,
     fontWeight: "600",
   },
   clearText: {
-    fontSize: 16,
+    fontSize: 14,
     lineHeight: 24,
     color: "#3E7EA6",
   },
@@ -439,7 +439,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#FFFFFF",
   },
   difficultyButtonText: {
-    fontSize: 16,
+    fontSize: 14,
     lineHeight: 24,
     color: "#000000",
   },
@@ -464,7 +464,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#FFFFFF",
   },
   timeButtonText: {
-    fontSize: 16,
+    fontSize: 14,
     lineHeight: 24,
     color: "#000000",
   },
@@ -479,7 +479,7 @@ const styles = StyleSheet.create({
     borderTopcolor: "#DBDBDB",
   },
   clearAllText: {
-    fontSize: 16,
+    fontSize: 14,
     lineHeight: 24,
     color: "#3E7EA6",
     fontWeight: "600",
@@ -500,7 +500,7 @@ const styles = StyleSheet.create({
     marginBottom: 8,
   },
   emptyText: {
-    fontSize: 16,
+    fontSize: 14,
     lineHeight: 24,
     color: "#8E8E8E",
     textAlign: "center",

@@ -83,7 +83,7 @@ export default function OrderDetailScreen() {
   if (!order || !restaurant) {
     return (
       <View style={styles.notFound}>
-        <Text style={{fontSize: 24,
+        <Text style={{fontSize: 20,
     fontWeight: "700",
     color: "#000000",
     letterSpacing: 0.2,}}>Order not found</Text>
@@ -349,7 +349,7 @@ const styles = StyleSheet.create({
     padding: 20,
   },
   backButtonText: {
-    fontSize: 16,
+    fontSize: 14,
     color: "#000000",
     lineHeight: 24,
     // color: "#3E7EA6",
@@ -381,7 +381,7 @@ const styles = StyleSheet.create({
     borderRadius: 16,
   },
   timeText: {
-    fontSize: 16,
+    fontSize: 14,
     color: "#000000",
     lineHeight: 24,
     // color: "#D9A566",
@@ -409,13 +409,13 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   driverName: {
-    fontSize: 18,
+    fontSize: 14,
     fontWeight: "600",
     color: "#000000",
     marginBottom: 2,
   },
   driverRole: {
-    fontSize: 16,
+    fontSize: 14,
     color: "#000000",
     lineHeight: 24,
     // color: "#8E8E8E",
@@ -432,7 +432,7 @@ const styles = StyleSheet.create({
     marginRight: 24,
   },
   driverActionText: {
-    fontSize: 16,
+    fontSize: 14,
     color: "#000000",
     lineHeight: 24,
     // color: "#3E7EA6",
@@ -463,13 +463,13 @@ const styles = StyleSheet.create({
     justifyContent: "center",
   },
   restaurantName: {
-    fontSize: 18,
+    fontSize: 14,
     fontWeight: "600",
     color: "#000000",
     marginBottom: 4,
   },
   viewRestaurantText: {
-    fontSize: 16,
+    fontSize: 14,
     color: "#000000",
     lineHeight: 24,
     // color: "#3E7EA6",
@@ -496,33 +496,33 @@ const styles = StyleSheet.create({
     marginBottom: 12,
     paddingBottom: 12,
     borderBottomWidth: 1,
-    borderBottomcolor: "#DBDBDB",
+    borderBottomColor: "#DBDBDB",
   },
   orderItemHeader: {
     flexDirection: "row",
     alignItems: "center",
   },
   orderItemQuantity: {
-    fontSize: 16,
+    fontSize: 14,
     color: "#000000",
     lineHeight: 24,
     fontWeight: "600",
     marginRight: 8,
   },
   orderItemName: {
-    fontSize: 16,
+    fontSize: 14,
     color: "#000000",
     lineHeight: 24,
     flex: 1,
   },
   orderItemPrice: {
-    fontSize: 16,
+    fontSize: 14,
     color: "#000000",
     lineHeight: 24,
     fontWeight: "600",
   },
   orderItemInstructions: {
-    fontSize: 12,
+    fontSize: 11,
     color: "#8E8E8E",
     lineHeight: 16,
     // color: "#8E8E8E",
@@ -535,14 +535,14 @@ const styles = StyleSheet.create({
     marginBottom: 12,
   },
   infoText: {
-    fontSize: 16,
+    fontSize: 14,
     color: "#000000",
     lineHeight: 24,
     marginLeft: 12,
     flex: 1,
   },
   instructionsText: {
-    fontSize: 16,
+    fontSize: 14,
     color: "#000000",
     lineHeight: 24,
     // color: "#8E8E8E",
@@ -560,7 +560,7 @@ const styles = StyleSheet.create({
     alignSelf: "flex-start",
   },
   paymentMethodText: {
-    fontSize: 16,
+    fontSize: 14,
     color: "#000000",
     lineHeight: 24,
     fontWeight: "500",
@@ -571,13 +571,13 @@ const styles = StyleSheet.create({
     marginBottom: 12,
   },
   summaryLabel: {
-    fontSize: 16,
+    fontSize: 14,
     color: "#000000",
     lineHeight: 24,
     // color: "#8E8E8E",
   },
   summaryValue: {
-    fontSize: 16,
+    fontSize: 14,
     color: "#000000",
     lineHeight: 24,
   },
@@ -588,12 +588,12 @@ const styles = StyleSheet.create({
     marginTop: 4,
   },
   totalLabel: {
-    fontSize: 18,
+    fontSize: 14,
     fontWeight: "600",
     color: "#000000",
   },
   totalValue: {
-    fontSize: 18,
+    fontSize: 14,
     fontWeight: "600",
     color: "#000000",
     // color: "#3E7EA6",
@@ -603,14 +603,14 @@ const styles = StyleSheet.create({
     marginBottom: 8,
   },
   orderInfoLabel: {
-    fontSize: 16,
+    fontSize: 14,
     color: "#000000",
     lineHeight: 24,
     // color: "#8E8E8E",
     width: 100,
   },
   orderInfoValue: {
-    fontSize: 16,
+    fontSize: 14,
     color: "#000000",
     lineHeight: 24,
     flex: 1,

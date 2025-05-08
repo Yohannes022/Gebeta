@@ -50,7 +50,7 @@ const styles = StyleSheet.create({
     marginRight: 8,
   },
   input: {
-    fontSize: 16,
+    fontSize: 14,
     color: "#000000",
     lineHeight: 24,
     flex: 1,

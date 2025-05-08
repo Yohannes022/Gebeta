@@ -8,7 +8,7 @@ export default StyleSheet.create({
     color: "#000000",
   },
   heading2: {
-    fontSize: 24,
+    fontSize: 20,
     fontWeight: "700",
     letterSpacing: 0.2,
     color: "#000000",
@@ -20,12 +20,12 @@ export default StyleSheet.create({
     color: "#000000",
   },
   heading4: {
-    fontSize: 18,
+    fontSize: 14,
     fontWeight: "600",
     color: "#000000",
   },
   body: {
-    fontSize: 16,
+    fontSize: 14,
     lineHeight: 24,
     color: "#000000",
   },
@@ -35,12 +35,12 @@ export default StyleSheet.create({
     color: "#000000",
   },
   caption: {
-    fontSize: 12,
+    fontSize: 11,
     lineHeight: 16,
     color: "#8E8E8E",
   },
   button: {
-    fontSize: 16,
+    fontSize: 14,
     fontWeight: "600",
     letterSpacing: 0.5,
   },

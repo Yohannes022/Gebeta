@@ -151,12 +151,12 @@ const styles = StyleSheet.create({
     marginBottom: 4,
   },
   title: {
-    fontSize: 18,
+    fontSize: 14,
     fontWeight: "600",
     color: "#000000",
     flex: 1,
     marginRight: 8,
-    // fontSize: 16,
+    // fontSize: 14,
   },
   badgesContainer: {
     flexDirection: "row",
@@ -165,7 +165,7 @@ const styles = StyleSheet.create({
     marginLeft: 4,
   },
   description: {
-    fontSize: 12,
+    fontSize: 11,
     color: "#8E8E8E",
     lineHeight: 16,
     marginBottom: 8,
@@ -177,7 +177,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   price: {
-    fontSize: 16,
+    fontSize: 14,
     color: "#000000",
     lineHeight: 24,
     // fontWeight: "600",
@@ -200,7 +200,7 @@ const styles = StyleSheet.create({
     borderRadius: 10,
   },
   popularText: {
-    fontSize: 12,
+    fontSize: 11,
     color: "#8E8E8E",
     lineHeight: 16,
     fontWeight: "600",

@@ -269,7 +269,7 @@ const styles = StyleSheet.create({
     marginBottom: 0,
   },
   sectionTitle: {
-    fontSize: 18,
+    fontSize: 14,
     fontWeight: "600",
     color: "#000000",
     marginBottom: 16,
@@ -280,14 +280,14 @@ const styles = StyleSheet.create({
     alignItems: "center",
     paddingVertical: 12,
     borderBottomWidth: 1,
-    borderBottomcolor: "#DBDBDB",
+    borderBottomColor: "#DBDBDB",
   },
   settingInfo: {
     flexDirection: "row",
     alignItems: "center",
   },
   settingLabel: {
-    fontSize: 16,
+    fontSize: 14,
     color: "#000000",
     lineHeight: 24,
     marginLeft: 12,
@@ -297,7 +297,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   settingValueText: {
-    fontSize: 16,
+    fontSize: 14,
     color: "#000000",
     lineHeight: 24,
     marginRight: 8,
@@ -314,7 +314,7 @@ const styles = StyleSheet.create({
     marginBottom: 8,
   },
   logoutText: {
-    fontSize: 16,
+    fontSize: 14,
     color: "#000000",
     lineHeight: 24,
     fontWeight: "600",
@@ -322,7 +322,7 @@ const styles = StyleSheet.create({
     // color: "#ED4956",
   },
   versionText: {
-    fontSize: 12,
+    fontSize: 11,
     color: "#8E8E8E",
     lineHeight: 16,
     textAlign: "center",

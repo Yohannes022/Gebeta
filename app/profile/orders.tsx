@@ -207,13 +207,13 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   restaurantName: {
-    fontSize: 18,
+    fontSize: 14,
     fontWeight: "600",
     color: "#000000",
     marginBottom: 4,
   },
   orderDate: {
-    fontSize: 12,
+    fontSize: 11,
     color: "#8E8E8E",
     lineHeight: 16,
     color: "#8E8E8E",
@@ -224,7 +224,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   orderStatus: {
-    fontSize: 12,
+    fontSize: 11,
     color: "#8E8E8E",
     lineHeight: 16,
     color: "#D9A566",
@@ -240,12 +240,12 @@ const styles = StyleSheet.create({
     borderTopWidth: 1,
     borderTopcolor: "#DBDBDB",
     borderBottomWidth: 1,
-    borderBottomcolor: "#DBDBDB",
+    borderBottomColor: "#DBDBDB",
     paddingVertical: 12,
     marginBottom: 12,
   },
   orderItemsText: {
-    fontSize: 16,
+    fontSize: 14,
     color: "#000000",
     lineHeight: 24,
     // color: "#8E8E8E",
@@ -256,7 +256,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   orderTotal: {
-    fontSize: 16,
+    fontSize: 14,
     color: "#000000",
     lineHeight: 24,
     fontWeight: "600",
@@ -268,7 +268,7 @@ const styles = StyleSheet.create({
     borderRadius: 16,
   },
   trackButtonText: {
-    fontSize: 12,
+    fontSize: 11,
     color: "#8E8E8E",
     lineHeight: 16,
     // color: "#FFFFFF",
@@ -288,7 +288,7 @@ const styles = StyleSheet.create({
     marginBottom: 8,
   },
   emptyText: {
-    fontSize: 16,
+    fontSize: 14,
     color: "#000000",
     lineHeight: 24,
     // color: "#8E8E8E",
@@ -302,7 +302,7 @@ const styles = StyleSheet.create({
     borderRadius: 8,
   },
   browseButtonText: {
-    fontSize: 16,
+    fontSize: 14,
     fontWeight: "600",
     letterSpacing: 0.5,
     color: "#FFFFFF",

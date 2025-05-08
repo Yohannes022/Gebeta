@@ -39,7 +39,7 @@ export default function MenuItemDetailScreen() {
   if (!restaurant || !menuItem) {
     return (
       <View style={styles.notFound}>
-        <Text style={{fontSize: 24,
+        <Text style={{fontSize: 20,
     fontWeight: "700",
     color: "#000000",
     letterSpacing: 0.2,}}>Item not found</Text>
@@ -283,14 +283,14 @@ const styles = StyleSheet.create({
     marginRight: 16,
   },
   price: {
-    fontSize: 24,
+    fontSize: 20,
     fontWeight: "700",
     color: "#000000",
     letterSpacing: 0.2,
     // color: "#3E7EA6",
   },
   description: {
-    fontSize: 16,
+    fontSize: 14,
     color: "#000000",
     lineHeight: 24,
     // lineHeight: 24,
@@ -319,7 +319,7 @@ const styles = StyleSheet.create({
     marginBottom: 8,
   },
   ingredientText: {
-    fontSize: 16,
+    fontSize: 14,
     color: "#000000",
     lineHeight: 24
   },
@@ -328,7 +328,7 @@ const styles = StyleSheet.create({
     borderRadius: 12,
     padding: 12,
     minHeight: 80,
-    fontSize: 16,
+    fontSize: 14,
     color: "#000000",
     lineHeight: 24,
     textAlignVertical: "top",
@@ -378,7 +378,7 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   totalLabel: {
-    fontSize: 16,
+    fontSize: 14,
     color: "#000000",
     lineHeight: 24,
     // color: "#8E8E8E",

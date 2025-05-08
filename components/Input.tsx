@@ -101,7 +101,7 @@ const styles = StyleSheet.create({
     width: "100%",
   },
   label: {
-    fontSize: 16,
+    fontSize: 14,
     color: "#000000",
     lineHeight: 24,
     fontWeight: "500",
@@ -110,13 +110,13 @@ const styles = StyleSheet.create({
   inputContainer: {
     flexDirection: "row",
     alignItems: "center",
-    borderWidth: 1,
+    borderWidth: StyleSheet.hairlineWidth,
     bordercolor: "#DBDBDB",
     borderRadius: 8,
     backgroundColor: "#F5F5F5",
   },
   input: {
-    fontSize: 16,
+    fontSize: 14,
     color: "#000000",
     lineHeight: 24,
     flex: 1,
@@ -134,7 +134,7 @@ const styles = StyleSheet.create({
     bordercolor: "#ED4956",
   },
   errorText: {
-    fontSize: 12,
+    fontSize: 11,
     color: "#8E8E8E",
     lineHeight: 16,
     marginTop: 4,

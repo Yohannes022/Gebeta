@@ -90,7 +90,7 @@ export default function RestaurantCard({
                 color: "#000000",
                 letterSpacing: 0.2,
               } : {
-                fontSize: 18,
+                fontSize: 14,
                 fontWeight: "600",
                 color: "#000000",
               },
@@ -195,7 +195,7 @@ const styles = StyleSheet.create({
   },
   closedText: {
     color: "#FFFFFF",
-    fontSize: 12,
+    fontSize: 11,
     fontWeight: "600",
   },
   content: {
@@ -222,14 +222,14 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   rating: {
-    fontSize: 16,
+    fontSize: 14,
     color: "#000000",
     lineHeight: 24,
     fontWeight: "600",
     marginLeft: 4,
   },
   reviewCount: {
-    fontSize: 12,
+    fontSize: 11,
     color: "#8E8E8E",
     lineHeight: 16,
     marginLeft: 2,
@@ -241,20 +241,20 @@ const styles = StyleSheet.create({
     marginBottom: 8,
   },
   category: {
-    fontSize: 12,
+    fontSize: 11,
     color: "#8E8E8E",
     lineHeight: 16,
     // color: "#8E8E8E",
   },
   categoryDot: {
-    fontSize: 12,
+    fontSize: 11,
     color: "#8E8E8E",
     lineHeight: 16,
     marginHorizontal: 4,
     // color: "#8E8E8E",
   },
   description: {
-    fontSize: 16,
+    fontSize: 14,
     color: "#000000",
     lineHeight: 24,
     marginBottom: 12,
@@ -275,7 +275,7 @@ const styles = StyleSheet.create({
     marginRight: 16,
   },
   metaText: {
-    fontSize: 12,
+    fontSize: 11,
     color: "#8E8E8E",
     lineHeight: 16,
     marginLeft: 4,
@@ -290,7 +290,7 @@ const styles = StyleSheet.create({
     borderRadius: 12,
   },
   deliveryFeeText: {
-    fontSize: 12,
+    fontSize: 11,
     color: "#8E8E8E",
     lineHeight: 16,
     fontWeight: "500",

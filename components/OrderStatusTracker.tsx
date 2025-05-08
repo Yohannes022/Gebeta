@@ -138,7 +138,7 @@ const styles = StyleSheet.create({
     marginRight: 12,
   },
   pendingText: {
-    fontSize: 16,
+    fontSize: 14,
     color: "#000000",
     lineHeight: 24,
     flex: 1,
@@ -151,7 +151,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   cancelledText: {
-    fontSize: 16,
+    fontSize: 14,
     color: "#000000",
     lineHeight: 24,
     fontWeight: "500",
@@ -198,7 +198,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   label: {
-    fontSize: 12,
+    fontSize: 11,
     color: "#8E8E8E",
     lineHeight: 16,
     textAlign: "center",

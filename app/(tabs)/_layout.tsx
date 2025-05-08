@@ -1,6 +1,14 @@
 import { useCartStore } from "@/store/cartStore";
 import { Tabs } from "expo-router";
-import { Home, MessageCircle, PlusSquare, Search, ShoppingBag, Store, User } from "lucide-react-native";
+import {
+  Home,
+  MessageCircle,
+  PlusSquare,
+  Search,
+  ShoppingBag,
+  Store,
+  User,
+} from "lucide-react-native";
 import React from "react";
 
 export default function TabLayout() {
@@ -10,20 +18,28 @@ export default function TabLayout() {
   return (
     <Tabs
       screenOptions={{
-        tabBarActiveTintColor: "#3E7EA6",
-        tabBarInactiveTintcolor: "#8E8E8E",
+        headerShown: false,
+        tabBarShowLabel: false,
+        tabBarActiveTintColor: "black",
         tabBarStyle: {
+          height: 45,
+          width: "90%",
+          position: "absolute",
+          margin: 20,
+          borderWidth: 1, // Replace with a fixed value or use a valid property
+          borderRadius: 20,
+          alignItems: "center",
+          justifyContent: "center",
           backgroundColor: "#FFFFFF",
-          borderTopcolor: "#DBDBDB",
+          // opacity: 0.8,
         },
         tabBarLabelStyle: {
-          fontSize: 12,
+          fontSize: 11,
           fontWeight: "500",
         },
         headerStyle: {
           backgroundColor: "#FFFFFF",
         },
-        headerTintcolor: "#000000",
         headerShadowVisible: false,
       }}
     >
@@ -31,28 +47,28 @@ export default function TabLayout() {
         name="index"
         options={{
           title: "Home",
-          tabBarIcon: ({ color }) => <Home size={22} color={color} />,
+          tabBarIcon: ({ color }) => <Home size={21} color={color} />,
         }}
       />
       <Tabs.Screen
         name="search"
         options={{
           title: "Explore",
-          tabBarIcon: ({ color }) => <Search size={22} color={color} />,
+          tabBarIcon: ({ color }) => <Search size={21} color={color} />,
         }}
       />
       <Tabs.Screen
         name="restaurants"
         options={{
           title: "Restaurants",
-          tabBarIcon: ({ color }) => <Store size={22} color={color} />,
+          tabBarIcon: ({ color }) => <Store size={21} color={color} />,
         }}
       />
       <Tabs.Screen
         name="cart"
         options={{
           title: "Cart",
-          tabBarIcon: ({ color }) => <ShoppingBag size={22} color={color} />,
+          tabBarIcon: ({ color }) => <ShoppingBag size={21} color={color} />,
           tabBarBadge: cartItemCount > 0 ? cartItemCount : undefined,
         }}
       />
@@ -60,21 +76,21 @@ export default function TabLayout() {
         name="create"
         options={{
           title: "Create",
-          tabBarIcon: ({ color }) => <PlusSquare size={22} color={color} />,
+          tabBarIcon: ({ color }) => <PlusSquare size={21} color={color} />,
         }}
       />
       <Tabs.Screen
         name="chatbot"
         options={{
           title: "Chat",
-          tabBarIcon: ({ color }) => <MessageCircle size={22} color={color} />,
+          tabBarIcon: ({ color }) => <MessageCircle size={21} color={color} />,
         }}
       />
       <Tabs.Screen
         name="profile"
         options={{
           title: "Profile",
-          tabBarIcon: ({ color }) => <User size={22} color={color} />,
+          tabBarIcon: ({ color }) => <User size={21} color={color} />,
         }}
       />
     </Tabs>

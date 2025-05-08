@@ -2,7 +2,7 @@ import { Image } from "expo-image";
 import { useRouter } from "expo-router";
 import { ChevronRight } from "lucide-react-native";
 import React from "react";
-import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
+import { Button, StyleSheet, Text, TouchableOpacity, View } from "react-native";
  
 
 import { useAuthStore } from "@/store/authStore";
@@ -36,6 +36,7 @@ export default function CreateScreen() {
 
   return (
     <View style={styles.container}>
+      
       <Text style={styles.title}>Create a Recipe</Text>
       <Text style={styles.subtitle}>
         Share your favorite Ethiopian dishes with the community
@@ -55,13 +56,13 @@ export default function CreateScreen() {
           </View>
           <ChevronRight size={24} color={"#3E7EA6"} />
         </View>
-        <Image
+        {/* <Image
           source={{
             uri: "https://images.unsplash.com/photo-1567364816519-cbc9c4ffe1eb?q=80&w=500",
           }}
           style={styles.createCardImage}
           contentFit="cover"
-        />
+        /> */}
       </TouchableOpacity>
 
       <View style={styles.tipsContainer}>
@@ -114,14 +115,14 @@ const styles = StyleSheet.create({
     padding: 20,
   },
   title: {
-    fontSize: 24,
+    fontSize: 20,
     fontWeight: "700",
     color: "#000000",
     letterSpacing: 0.2,
     marginBottom: 8,
   },
   subtitle: {
-    fontSize: 16,
+    fontSize: 14,
     color: "#000000",
     lineHeight: 24,
     // color: "#8E8E8E",
@@ -143,6 +144,8 @@ const styles = StyleSheet.create({
     justifyContent: "space-between",
     alignItems: "center",
     padding: 20,
+    borderWidth: StyleSheet.hairlineWidth,
+    borderRadius: 16,
   },
   createCardTitle: {
     fontSize: 20,
@@ -152,7 +155,7 @@ const styles = StyleSheet.create({
     marginBottom: 4,
   },
   createCardText: {
-    fontSize: 16,
+    fontSize: 14,
     color: "#000000",
     lineHeight: 24,
     maxWidth: "90%",
@@ -191,22 +194,24 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     marginRight: 12,
+    borderWidth: StyleSheet.hairlineWidth,
   },
   tipNumberText: {
-    color: "#FFFFFF",
+    color: "#000000",
     fontWeight: "600",
   },
   tipContent: {
     flex: 1,
+    paddingHorizontal: 8,
   },
   tipItemTitle: {
-    fontSize: 18,
+    fontSize: 14,
     fontWeight: "600",
     color: "#000000",
     marginBottom: 4,
   },
   tipItemText: {
-    fontSize: 16,
+    fontSize: 14,
     color: "#000000",
     lineHeight: 24,
     // color: "#8E8E8E",
@@ -218,7 +223,7 @@ const styles = StyleSheet.create({
     padding: 20,
   },
   authTitle: {
-    fontSize: 24,
+    fontSize: 20,
     fontWeight: "700",
     color: "#000000",
     letterSpacing: 0.2,
@@ -226,7 +231,7 @@ const styles = StyleSheet.create({
     textAlign: "center",
   },
   authText: {
-    fontSize: 16,
+    fontSize: 14,
     color: "#000000",
     lineHeight: 24,
     textAlign: "center",
@@ -240,7 +245,7 @@ const styles = StyleSheet.create({
     borderRadius: 8,
   },
   authButtonText: {
-    fontSize: 16,
+    fontSize: 14,
     fontWeight: "600",
     letterSpacing: 0.5,
     color: "#FFFFFF",

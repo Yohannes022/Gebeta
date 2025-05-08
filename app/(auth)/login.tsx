@@ -95,6 +95,7 @@ export default function LoginScreen() {
                 loading={isLoading}
                 fullWidth
                 style={styles.button}
+                textStyle={styles.buttonText}
               />
             </View>
 
@@ -120,8 +121,13 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   scrollContent: {
+    flex: 1,
     flexGrow: 1,
     padding: 24,
+    // alignItems: "center",
+    justifyContent: "center",
+    width: "100%",
+    height: "100%",
   },
   header: {
     alignItems: "center",
@@ -135,14 +141,14 @@ const styles = StyleSheet.create({
     marginBottom: 24,
   },
   title: {
-    fontSize: 24,
+    fontSize: 20,
     fontWeight: "700",
     color: "#000000",
     letterSpacing: 0.2,
     marginBottom: 8,
   },
   subtitle: {
-    fontSize: 16,
+    fontSize: 14,
     color: "#000000",
     lineHeight: 24,
     textAlign: "center",
@@ -151,11 +157,22 @@ const styles = StyleSheet.create({
   form: {
     marginBottom: 24,
   },
+  buttonText: {
+    fontSize: 14,
+    fontWeight: "700",
+    color: "#000000",
+  },
   button: {
-    marginTop: 16,
+    marginVertical: 16,
+    paddingVertical: 18,
+    borderWidth: StyleSheet.hairlineWidth,
+    borderColor: "#DBDBDB",
+    borderRadius: 20,
+    // width: "40%",
+    // marginLeft: "30%",
   },
   errorText: {
-    fontSize: 16,
+    fontSize: 14,
     color: "#000000",
     lineHeight: 24,
     marginTop: 8,
@@ -167,7 +184,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   footerText: {
-    fontSize: 12,
+    fontSize: 11,
     color: "#8E8E8E",
     lineHeight: 16,
     textAlign: "center",

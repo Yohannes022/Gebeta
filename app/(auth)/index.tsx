@@ -27,11 +27,19 @@ export default function WelcomeScreen() {
         style={styles.backgroundImage}
       />
       
-      <LinearGradient
+      {/* <LinearGradient
         colors={["transparent", "rgba(0,0,0,0.7)", "rgba(0,0,0,0.9)"]}
         style={styles.gradient}
-      />
+      /> */}
       
+      <LinearGradient
+        colors={['#feda75', '#fa7e1e', '#d62976', '#962fbf', '#4f5bd5']}
+        start={{ x: 0, y: 0 }}
+        end={{ x: 1, y: 1 }}
+        style={styles.gradient}
+      />
+
+
       <SafeAreaView style={styles.content}>
         <View style={styles.header}>
           <Text style={styles.title}>Habesha Cuisine</Text>
@@ -47,6 +55,7 @@ export default function WelcomeScreen() {
             variant="primary"
             size="large"
             fullWidth
+            textStyle={styles.primaryButtonText}
           />
           
           <Button
@@ -71,6 +80,7 @@ export default function WelcomeScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    paddingHorizontal: 16,
   },
   backgroundImage: {
     ...StyleSheet.absoluteFillObject,
@@ -83,7 +93,9 @@ const styles = StyleSheet.create({
   content: {
     flex: 1,
     justifyContent: "space-between",
-    padding: 24,
+    paddingHorizontal: 24,
+    
+    // alignItems: "center",
   },
   header: {
     alignItems: "center",
@@ -99,26 +111,33 @@ const styles = StyleSheet.create({
     // fontSize: 36,
   },
   subtitle: {
-    fontSize: 16,
+    fontSize: 14,
     lineHeight: 24,
     color: "#FFFFFF",
     textAlign: "center",
     opacity: 0.9,
-    // fontSize: 18,
+    // fontSize: 14,
   },
   footer: {
     marginBottom: 24,
+  },
+  primaryButtonText: {
+    color: "#000000",
+    fontSize: 14,
+    fontWeight: "500",
   },
   secondaryButton: {
     marginTop: 16,
     backgroundColor: "rgba(255, 255, 255, 0.2)",
     borderColor: "#FFFFFF",
+    borderWidth:StyleSheet.hairlineWidth,
+    borderRadius: 10,
   },
   secondaryButtonText: {
     color: "#FFFFFF",
   },
   termsText: {
-    fontSize: 12,
+    fontSize: 11,
     lineHeight: 16,
     color: "#FFFFFF",
     opacity: 0.7,

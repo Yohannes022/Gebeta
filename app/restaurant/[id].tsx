@@ -97,7 +97,7 @@ export default function RestaurantDetailScreen() {
   if (!restaurant) {
     return (
       <View style={styles.notFound}>
-        <Text style={{fontSize: 24,
+        <Text style={{fontSize: 20,
     fontWeight: "700",
     letterSpacing: 0.2,
     color: "#000000",}}>Restaurant not found</Text>
@@ -543,7 +543,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#FFFFFF",
   },
   loadingText: {
-    fontSize: 16,
+    fontSize: 14,
     lineHeight: 24,
     marginTop: 16,
     color: "#8E8E8E",
@@ -593,7 +593,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   headerTitle: {
-    fontSize: 18,
+    fontSize: 14,
     fontWeight: "600",
     flex: 1,
     textAlign: "center",
@@ -677,13 +677,13 @@ const styles = StyleSheet.create({
     flexWrap: "wrap",
   },
   rating: {
-    fontSize: 16,
+    fontSize: 14,
     lineHeight: 24,
     fontWeight: "600",
     marginLeft: 4,
   },
   reviewCount: {
-    fontSize: 16,
+    fontSize: 14,
     lineHeight: 24,
     color: "#8E8E8E",
     marginLeft: 4,
@@ -698,7 +698,7 @@ const styles = StyleSheet.create({
     borderRadius: 4,
   },
   writeReviewText: {
-    fontSize: 12,
+    fontSize: 11,
     lineHeight: 16,
     color: "#3E7EA6",
     marginLeft: 4,
@@ -709,12 +709,12 @@ const styles = StyleSheet.create({
     marginBottom: 12,
   },
   category: {
-    fontSize: 16,
+    fontSize: 14,
     lineHeight: 24,
     color: "#8E8E8E",
   },
   categoryDot: {
-    fontSize: 16,
+    fontSize: 14,
     lineHeight: 24,
     color: "#8E8E8E",
     marginHorizontal: 4,
@@ -729,7 +729,7 @@ const styles = StyleSheet.create({
     marginRight: 16,
   },
   metaText: {
-    fontSize: 16,
+    fontSize: 14,
     lineHeight: 24,
     marginLeft: 4,
   },
@@ -744,7 +744,7 @@ const styles = StyleSheet.create({
   },
   closedText: {
     color: "#FFFFFF",
-    fontSize: 12,
+    fontSize: 11,
     fontWeight: "600",
   },
   section: {
@@ -763,7 +763,7 @@ const styles = StyleSheet.create({
     marginBottom: 16,
   },
   description: {
-    fontSize: 16,
+    fontSize: 14,
     lineHeight: 24,
   },
   mapContainer: {
@@ -814,7 +814,7 @@ const styles = StyleSheet.create({
     shadowRadius: 4,
   },
   locationPermissionText: {
-    fontSize: 12,
+    fontSize: 11,
     lineHeight: 16,
     color: "#3E7EA6",
     fontWeight: "600",
@@ -828,7 +828,7 @@ const styles = StyleSheet.create({
     marginBottom: 16,
   },
   addressText: {
-    fontSize: 16,
+    fontSize: 14,
     lineHeight: 24,
     marginLeft: 12,
     flex: 1,
@@ -838,7 +838,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   directionsText: {
-    fontSize: 16,
+    fontSize: 14,
     lineHeight: 24,
     color: "#3E7EA6",
     fontWeight: "600",
@@ -850,7 +850,7 @@ const styles = StyleSheet.create({
     marginBottom: 12,
   },
   infoText: {
-    fontSize: 16,
+    fontSize: 14,
     lineHeight: 24,
     marginLeft: 12,
   },
@@ -858,7 +858,7 @@ const styles = StyleSheet.create({
     marginTop: 16,
   },
   hoursTitle: {
-    fontSize: 18,
+    fontSize: 14,
     fontWeight: "600",
     marginBottom: 12,
   },
@@ -868,13 +868,13 @@ const styles = StyleSheet.create({
     marginBottom: 8,
   },
   dayText: {
-    fontSize: 16,
+    fontSize: 14,
     lineHeight: 24,
     fontWeight: "500",
     width: 100,
   },
   hoursText: {
-    fontSize: 16,
+    fontSize: 14,
     lineHeight: 24,
   },
   menuSection: {
@@ -899,13 +899,13 @@ const styles = StyleSheet.create({
     maxHeight: "80%",
   },
   modalTitle: {
-    fontSize: 24,
+    fontSize: 20,
     fontWeight: "700",
     letterSpacing: 0.2,
     marginBottom: 4,
   },
   modalSubtitle: {
-    fontSize: 16,
+    fontSize: 14,
     lineHeight: 24,
     color: "#8E8E8E",
     marginBottom: 20,
@@ -914,7 +914,7 @@ const styles = StyleSheet.create({
     marginBottom: 20,
   },
   ratingLabel: {
-    fontSize: 16,
+    fontSize: 14,
     lineHeight: 24,
     fontWeight: "600",
     marginBottom: 8,
@@ -925,7 +925,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 20,
   },
   commentLabel: {
-    fontSize: 16,
+    fontSize: 14,
     lineHeight: 24,
     fontWeight: "600",
     marginBottom: 8,
@@ -936,7 +936,7 @@ const styles = StyleSheet.create({
     padding: 16,
     height: 120,
     textAlignVertical: "top",
-    fontSize: 16,
+    fontSize: 14,
     lineHeight: 24,
   },
   modalButtons: {
@@ -948,13 +948,13 @@ const styles = StyleSheet.create({
     flex: 1,
     paddingVertical: 12,
     marginRight: 8,
-    borderWidth: 1,
+    borderWidth: StyleSheet.hairlineWidth,
     bordercolor: "#DBDBDB",
     borderRadius: 8,
     alignItems: "center",
   },
   cancelButtonText: {
-    fontSize: 16,
+    fontSize: 14,
     lineHeight: 24,
     color: "#000000",
   },
@@ -970,7 +970,7 @@ const styles = StyleSheet.create({
     backgroundcolor: "#8E8E8E",
   },
   submitButtonText: {
-    fontSize: 16,
+    fontSize: 14,
     lineHeight: 24,
     color: "#FFFFFF",
     fontWeight: "600",

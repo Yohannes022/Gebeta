@@ -118,7 +118,7 @@ const styles = StyleSheet.create({
     borderRadius: 12,
     padding: 16,
     marginBottom: 12,
-    borderWidth: 1,
+    borderWidth: StyleSheet.hairlineWidth,
     bordercolor: "#DBDBDB",
   },
   selectedContainer: {
@@ -140,7 +140,7 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   methodName: {
-    fontSize: 16,
+    fontSize: 14,
     color: "#000000",
     lineHeight: 24,
     fontWeight: "600",
@@ -149,7 +149,7 @@ const styles = StyleSheet.create({
     color: "#3E7EA6",
   },
   methodDetails: {
-    fontSize: 12,
+    fontSize: 11,
     color: "#8E8E8E",
     lineHeight: 16,
     // color: "#8E8E8E",
@@ -162,7 +162,7 @@ const styles = StyleSheet.create({
     marginLeft: 8,
   },
   defaultText: {
-    fontSize: 12,
+    fontSize: 11,
     color: "#8E8E8E",
     lineHeight: 16,
     fontWeight: "600",
@@ -189,7 +189,7 @@ const styles = StyleSheet.create({
     marginRight: 16,
   },
   actionText: {
-    fontSize: 12,
+    fontSize: 11,
     color: "#8E8E8E",
     lineHeight: 16,
     marginLeft: 4,

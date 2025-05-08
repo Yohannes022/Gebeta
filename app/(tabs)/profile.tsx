@@ -321,21 +321,21 @@ const styles = StyleSheet.create({
     marginBottom: 16,
   },
   profileName: {
-    fontSize: 24,
+    fontSize: 20,
     fontWeight: "700",
     color: "#000000",
     letterSpacing: 0.2,
     marginBottom: 4,
   },
   profileLocation: {
-    fontSize: 16,
+    fontSize: 14,
     color: "#000000",
     lineHeight: 24,
     // color: "#8E8E8E",
     marginBottom: 12,
   },
   profileBio: {
-    fontSize: 16,
+    fontSize: 14,
     color: "#000000",
     lineHeight: 24,
     textAlign: "center",
@@ -359,7 +359,7 @@ const styles = StyleSheet.create({
     marginBottom: 4,
   },
   statLabel: {
-    fontSize: 12,
+    fontSize: 11,
     color: "#8E8E8E",
     lineHeight: 16,
     // color: "#8E8E8E",
@@ -367,19 +367,19 @@ const styles = StyleSheet.create({
   statDivider: {
     width: 1,
     height: "80%",
-    backgroundcolor: "#DBDBDB",
+    backgroundColor: "#DBDBDB",
   },
   editProfileButton: {
     flexDirection: "row",
     alignItems: "center",
     paddingVertical: 8,
     paddingHorizontal: 16,
-    borderWidth: 1,
-    bordercolor: "#DBDBDB",
+    borderWidth: StyleSheet.hairlineWidth,
+    borderColor: "#DBDBDB",
     borderRadius: 20,
   },
   editProfileText: {
-    fontSize: 16,
+    fontSize: 14,
     color: "#000000",
     lineHeight: 24,
     marginLeft: 8,
@@ -405,7 +405,7 @@ const styles = StyleSheet.create({
     marginBottom: 16,
   },
   seeAllText: {
-    fontSize: 16,
+    fontSize: 14,
     color: "#000000",
     lineHeight: 24,
     // color: "#3E7EA6",
@@ -416,15 +416,15 @@ const styles = StyleSheet.create({
     justifyContent: "space-between",
     alignItems: "center",
     paddingVertical: 12,
-    borderBottomWidth: 1,
-    borderBottomcolor: "#DBDBDB",
+    borderBottomWidth: StyleSheet.hairlineWidth,
+    borderBottomColor: "#DBDBDB",
   },
   menuItemLeft: {
     flexDirection: "row",
     alignItems: "center",
   },
   menuItemText: {
-    fontSize: 16,
+    fontSize: 14,
     color: "#000000",
     lineHeight: 24,
     marginLeft: 12,
@@ -434,21 +434,21 @@ const styles = StyleSheet.create({
     justifyContent: "space-between",
     alignItems: "center",
     paddingVertical: 12,
-    borderBottomWidth: 1,
-    borderBottomcolor: "#DBDBDB",
+    borderBottomWidth: StyleSheet.hairlineWidth,
+    borderBottomColor: "#DBDBDB",
   },
   orderInfo: {
     flex: 1,
   },
   orderTitle: {
-    fontSize: 16,
+    fontSize: 14,
     color: "#000000",
     lineHeight: 24,
     fontWeight: "600",
     marginBottom: 4,
   },
   orderDate: {
-    fontSize: 12,
+    fontSize: 11,
     color: "#8E8E8E",
     lineHeight: 16,
     // color: "#8E8E8E",N
@@ -458,7 +458,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   orderStatusText: {
-    fontSize: 12,
+    fontSize: 11,
     color: "#8E8E8E",
     lineHeight: 16,
     // color: "#D9A566",
@@ -472,8 +472,8 @@ const styles = StyleSheet.create({
   },
   tabsContainer: {
     flexDirection: "row",
-    borderBottomWidth: 1,
-    borderBottomcolor: "#DBDBDB",
+    // borderBottomWidth: StyleSheet.hairlineWidth,
+    borderBottomColor: "#DBDBDB",
     backgroundColor: "#FFFFFF",
   },
   tabButton: {
@@ -488,7 +488,7 @@ const styles = StyleSheet.create({
     borderBottomColor: "#3E7EA6",
   },
   tabText: {
-    fontSize: 16,
+    fontSize: 14,
     color: "#000000",
     lineHeight: 24,
     // color: "#8E8E8E",
@@ -513,7 +513,7 @@ const styles = StyleSheet.create({
     marginBottom: 8,
   },
   emptyStateText: {
-    fontSize: 16,
+    fontSize: 14,
     color: "#000000",
     lineHeight: 24,
     // color: "#8E8E8E",
@@ -527,7 +527,7 @@ const styles = StyleSheet.create({
     borderRadius: 8,
   },
   createButtonText: {
-    fontSize: 16,
+    fontSize: 14,
     fontWeight: "600",
     letterSpacing: 0.5,
     color: "#FFFFFF",

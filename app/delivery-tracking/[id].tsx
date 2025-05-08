@@ -135,7 +135,7 @@ export default function DeliveryTrackingScreen() {
   if (!order || !restaurant) {
     return (
       <View style={styles.notFound}>
-        <Text style={{fontSize: 24,
+        <Text style={{fontSize: 20,
     fontWeight: "700",
     letterSpacing: 0.2,
     color: "#000000",}}>Order not found</Text>
@@ -165,9 +165,9 @@ export default function DeliveryTrackingScreen() {
       <View style={styles.mapContainer}>
         {Platform.OS === "web" ? (
           <View style={[styles.map, { backgroundcolor: "#DBDBDB", justifyContent: "center", alignItems: "center" }]}>
-            <Text style={{ fontSize: 16,
+            <Text style={{ fontSize: 14,
     lineHeight: 24, color: "#8E8E8E" }}>Map View</Text>
-            <Text style={{ fontSize: 12,
+            <Text style={{ fontSize: 11,
     lineHeight: 16, color: "#8E8E8E", marginTop: 8 }}>
               (Map would be displayed here in a real app)
             </Text>
@@ -366,7 +366,7 @@ const styles = StyleSheet.create({
     padding: 20,
   },
   backButtonText: {
-    fontSize: 16,
+    fontSize: 14,
     lineHeight: 24,
     color: "#3E7EA6",
     fontWeight: "600",
@@ -431,7 +431,7 @@ const styles = StyleSheet.create({
     shadowRadius: 4,
   },
   locationPermissionText: {
-    fontSize: 12,
+    fontSize: 11,
     lineHeight: 16,
     color: "#3E7EA6",
     fontWeight: "600",
@@ -453,13 +453,13 @@ const styles = StyleSheet.create({
     marginBottom: 24,
   },
   estimatedTimeLabel: {
-    fontSize: 16,
+    fontSize: 14,
     lineHeight: 24,
     color: "#8E8E8E",
     marginBottom: 4,
   },
   estimatedTimeValue: {
-    fontSize: 24,
+    fontSize: 20,
     fontWeight: "700",
     letterSpacing: 0.2,
     color: "#3E7EA6",
@@ -487,12 +487,12 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   driverName: {
-    fontSize: 18,
+    fontSize: 14,
     fontWeight: "600",
     marginBottom: 2,
   },
   driverRole: {
-    fontSize: 16,
+    fontSize: 14,
     lineHeight: 24,
     color: "#8E8E8E",
   },
@@ -512,17 +512,17 @@ const styles = StyleSheet.create({
     marginBottom: 24,
   },
   deliveryAddressTitle: {
-    fontSize: 18,
+    fontSize: 14,
     fontWeight: "600",
     marginBottom: 8,
   },
   deliveryAddress: {
-    fontSize: 16,
+    fontSize: 14,
     lineHeight: 24,
     marginBottom: 4,
   },
   deliveryInstructions: {
-    fontSize: 16,
+    fontSize: 14,
     lineHeight: 24,
     color: "#8E8E8E",
     fontStyle: "italic",
@@ -533,7 +533,7 @@ const styles = StyleSheet.create({
     paddingTop: 16,
   },
   orderSummaryTitle: {
-    fontSize: 18,
+    fontSize: 14,
     fontWeight: "600",
     marginBottom: 12,
   },
@@ -545,14 +545,14 @@ const styles = StyleSheet.create({
     marginBottom: 8,
   },
   orderItemQuantity: {
-    fontSize: 16,
+    fontSize: 14,
     lineHeight: 24,
     fontWeight: "600",
     marginRight: 8,
     width: 30,
   },
   orderItemName: {
-    fontSize: 16,
+    fontSize: 14,
     lineHeight: 24,
     flex: 1,
   },
@@ -564,11 +564,11 @@ const styles = StyleSheet.create({
     paddingTop: 12,
   },
   totalLabel: {
-    fontSize: 18,
+    fontSize: 14,
     fontWeight: "600",
   },
   totalValue: {
-    fontSize: 18,
+    fontSize: 14,
     fontWeight: "600",
     color: "#3E7EA6",
   },
