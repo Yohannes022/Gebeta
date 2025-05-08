@@ -136,9 +136,9 @@ const styles = StyleSheet.create({
   },
   instructions: {
     fontSize: 12,
-    color: "#8A8A8A",
+    color: "#8E8E8E",
     lineHeight: 16,
-    color: "#8A8A8A",
+    color: "#8E8E8E",
     marginBottom: 12,
     fontStyle: "italic",
   },
@@ -153,7 +153,7 @@ const styles = StyleSheet.create({
   },
   instructionsButtonText: {
     fontSize: 12,
-    color: "#8A8A8A",
+    color: "#8E8E8E",
     lineHeight: 16,
     fontWeight: "500",
     // color: "#3E7EA6",

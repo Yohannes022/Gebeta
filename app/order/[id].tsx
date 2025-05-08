@@ -418,7 +418,7 @@ const styles = StyleSheet.create({
     fontSize: 16,
     color: "#000000",
     lineHeight: 24,
-    // color: "#8A8A8A",
+    // color: "#8E8E8E",
   },
   driverActions: {
     flexDirection: "row",
@@ -523,9 +523,9 @@ const styles = StyleSheet.create({
   },
   orderItemInstructions: {
     fontSize: 12,
-    color: "#8A8A8A",
+    color: "#8E8E8E",
     lineHeight: 16,
-    // color: "#8A8A8A",
+    // color: "#8E8E8E",
     marginTop: 4,
     fontStyle: "italic",
   },
@@ -545,7 +545,7 @@ const styles = StyleSheet.create({
     fontSize: 16,
     color: "#000000",
     lineHeight: 24,
-    // color: "#8A8A8A",
+    // color: "#8E8E8E",
     fontStyle: "italic",
     marginLeft: 30, // Align with the text above
   },
@@ -574,7 +574,7 @@ const styles = StyleSheet.create({
     fontSize: 16,
     color: "#000000",
     lineHeight: 24,
-    // color: "#8A8A8A",
+    // color: "#8E8E8E",
   },
   summaryValue: {
     fontSize: 16,
@@ -606,7 +606,7 @@ const styles = StyleSheet.create({
     fontSize: 16,
     color: "#000000",
     lineHeight: 24,
-    // color: "#8A8A8A",
+    // color: "#8E8E8E",
     width: 100,
   },
   orderInfoValue: {

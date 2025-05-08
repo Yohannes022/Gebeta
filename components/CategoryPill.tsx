@@ -43,7 +43,7 @@ const styles = StyleSheet.create({
   },
   pillText: {
     fontSize: 12,
-    color: "#8A8A8A",
+    color: "#8E8E8E",
     lineHeight: 16,
     fontWeight: "500",
     // color: "#000000",

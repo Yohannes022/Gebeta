@@ -166,9 +166,9 @@ export default function DeliveryTrackingScreen() {
         {Platform.OS === "web" ? (
           <View style={[styles.map, { backgroundcolor: "#DBDBDB", justifyContent: "center", alignItems: "center" }]}>
             <Text style={{ fontSize: 16,
-    lineHeight: 24, color: "#8A8A8A" }}>Map View</Text>
+    lineHeight: 24, color: "#8E8E8E" }}>Map View</Text>
             <Text style={{ fontSize: 12,
-    lineHeight: 16, color: "#8A8A8A", marginTop: 8 }}>
+    lineHeight: 16, color: "#8E8E8E", marginTop: 8 }}>
               (Map would be displayed here in a real app)
             </Text>
           </View>
@@ -455,7 +455,7 @@ const styles = StyleSheet.create({
   estimatedTimeLabel: {
     fontSize: 16,
     lineHeight: 24,
-    color: "#8A8A8A",
+    color: "#8E8E8E",
     marginBottom: 4,
   },
   estimatedTimeValue: {
@@ -494,7 +494,7 @@ const styles = StyleSheet.create({
   driverRole: {
     fontSize: 16,
     lineHeight: 24,
-    color: "#8A8A8A",
+    color: "#8E8E8E",
   },
   driverActions: {
     flexDirection: "row",
@@ -524,7 +524,7 @@ const styles = StyleSheet.create({
   deliveryInstructions: {
     fontSize: 16,
     lineHeight: 24,
-    color: "#8A8A8A",
+    color: "#8E8E8E",
     fontStyle: "italic",
   },
   orderSummaryContainer: {

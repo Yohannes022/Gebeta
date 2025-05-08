@@ -230,10 +230,10 @@ const styles = StyleSheet.create({
   },
   reviewCount: {
     fontSize: 12,
-    color: "#8A8A8A",
+    color: "#8E8E8E",
     lineHeight: 16,
     marginLeft: 2,
-    // color: "#8A8A8A",
+    // color: "#8E8E8E",
   },
   categories: {
     flexDirection: "row",
@@ -242,16 +242,16 @@ const styles = StyleSheet.create({
   },
   category: {
     fontSize: 12,
-    color: "#8A8A8A",
+    color: "#8E8E8E",
     lineHeight: 16,
-    // color: "#8A8A8A",
+    // color: "#8E8E8E",
   },
   categoryDot: {
     fontSize: 12,
-    color: "#8A8A8A",
+    color: "#8E8E8E",
     lineHeight: 16,
     marginHorizontal: 4,
-    // color: "#8A8A8A",
+    // color: "#8E8E8E",
   },
   description: {
     fontSize: 16,
@@ -276,7 +276,7 @@ const styles = StyleSheet.create({
   },
   metaText: {
     fontSize: 12,
-    color: "#8A8A8A",
+    color: "#8E8E8E",
     lineHeight: 16,
     marginLeft: 4,
   },
@@ -291,7 +291,7 @@ const styles = StyleSheet.create({
   },
   deliveryFeeText: {
     fontSize: 12,
-    color: "#8A8A8A",
+    color: "#8E8E8E",
     lineHeight: 16,
     fontWeight: "500",
   },

@@ -146,7 +146,7 @@ const styles = StyleSheet.create({
     color: "#000000",
     lineHeight: 24,
     textAlign: "center",
-    // color: "#8A8A8A",
+    // color: "#8E8E8E",
   },
   form: {
     marginBottom: 24,
@@ -168,9 +168,9 @@ const styles = StyleSheet.create({
   },
   footerText: {
     fontSize: 12,
-    color: "#8A8A8A",
+    color: "#8E8E8E",
     lineHeight: 16,
     textAlign: "center",
-    // color: "#8A8A8A",
+    // color: "#8E8E8E",
   },
 });

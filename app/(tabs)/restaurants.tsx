@@ -412,7 +412,7 @@ const styles = StyleSheet.create({
     fontSize: 16,
     lineHeight: 24,
     marginTop: 16,
-    color: "#8A8A8A",
+    color: "#8E8E8E",
   },
   errorContainer: {
     flex: 1,
@@ -430,7 +430,7 @@ const styles = StyleSheet.create({
   errorText: {
     fontSize: 16,
     lineHeight: 24,
-    color: "#8A8A8A",
+    color: "#8E8E8E",
     textAlign: "center",
     marginBottom: 24,
   },
@@ -644,7 +644,7 @@ const styles = StyleSheet.create({
   emptyText: {
     fontSize: 16,
     lineHeight: 24,
-    color: "#8A8A8A",
+    color: "#8E8E8E",
     textAlign: "center",
     marginBottom: 24,
   },

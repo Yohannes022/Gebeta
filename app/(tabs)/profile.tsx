@@ -331,7 +331,7 @@ const styles = StyleSheet.create({
     fontSize: 16,
     color: "#000000",
     lineHeight: 24,
-    // color: "#8A8A8A",
+    // color: "#8E8E8E",
     marginBottom: 12,
   },
   profileBio: {
@@ -360,9 +360,9 @@ const styles = StyleSheet.create({
   },
   statLabel: {
     fontSize: 12,
-    color: "#8A8A8A",
+    color: "#8E8E8E",
     lineHeight: 16,
-    // color: "#8A8A8A",
+    // color: "#8E8E8E",
   },
   statDivider: {
     width: 1,
@@ -449,9 +449,9 @@ const styles = StyleSheet.create({
   },
   orderDate: {
     fontSize: 12,
-    color: "#8A8A8A",
+    color: "#8E8E8E",
     lineHeight: 16,
-    // color: "#8A8A8A",N
+    // color: "#8E8E8E",N
   },
   orderStatus: {
     flexDirection: "row",
@@ -459,7 +459,7 @@ const styles = StyleSheet.create({
   },
   orderStatusText: {
     fontSize: 12,
-    color: "#8A8A8A",
+    color: "#8E8E8E",
     lineHeight: 16,
     // color: "#D9A566",
     marginRight: 4,
@@ -491,7 +491,7 @@ const styles = StyleSheet.create({
     fontSize: 16,
     color: "#000000",
     lineHeight: 24,
-    // color: "#8A8A8A",
+    // color: "#8E8E8E",
     marginLeft: 8,
   },
   activeTabText: {
@@ -516,7 +516,7 @@ const styles = StyleSheet.create({
     fontSize: 16,
     color: "#000000",
     lineHeight: 24,
-    // color: "#8A8A8A",
+    // color: "#8E8E8E",
     textAlign: "center",
     marginBottom: 24,
   },

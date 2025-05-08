@@ -226,7 +226,7 @@ const styles = StyleSheet.create({
     fontSize: 16,
     lineHeight: 24,
     marginTop: 16,
-    color: "#8A8A8A",
+    color: "#8E8E8E",
   },
   header: {
     flexDirection: "row",
@@ -245,7 +245,7 @@ const styles = StyleSheet.create({
   subtitle: {
     fontSize: 16,
     lineHeight: 24,
-    color: "#8A8A8A",
+    color: "#8E8E8E",
   },
   avatar: {
     width: 48,
@@ -321,7 +321,7 @@ const styles = StyleSheet.create({
   locationText: {
     fontSize: 12,
     lineHeight: 16,
-    color: "#8A8A8A",
+    color: "#8E8E8E",
     marginLeft: 4,
     flex: 1,
   },

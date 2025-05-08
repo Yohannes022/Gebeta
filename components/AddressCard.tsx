@@ -138,7 +138,7 @@ const styles = StyleSheet.create({
   },
   defaultText: {
     fontSize: 12,
-    color: "#8A8A8A",
+    color: "#8E8E8E",
     lineHeight: 16,
     fontWeight: "600",
     // color: "#D9A566",
@@ -162,14 +162,14 @@ const styles = StyleSheet.create({
     color: "#000000",
     lineHeight: 24,
     marginBottom: 8,
-    // color: "#8A8A8A",
+    // color: "#8E8E8E",
   },
   instructions: {
     fontSize: 12,
-    color: "#8A8A8A",
+    color: "#8E8E8E",
     lineHeight: 16,
     fontStyle: "italic",
-    // color: "#8A8A8A",
+    // color: "#8E8E8E",
   },
   actions: {
     flexDirection: "row",
@@ -185,7 +185,7 @@ const styles = StyleSheet.create({
   },
   actionText: {
     fontSize: 12,
-    color: "#8A8A8A",
+    color: "#8E8E8E",
     lineHeight: 16,
     marginLeft: 4,
     // color: "#3E7EA6",

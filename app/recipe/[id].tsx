@@ -577,7 +577,7 @@ const styles = StyleSheet.create({
   ratingText: {
     fontSize: 16,
     lineHeight: 24,
-    color: "#8A8A8A",
+    color: "#8E8E8E",
     marginLeft: 8,
   },
   metaContainer: {
@@ -593,7 +593,7 @@ const styles = StyleSheet.create({
   metaText: {
     fontSize: 16,
     lineHeight: 24,
-    color: "#8A8A8A",
+    color: "#8E8E8E",
     marginLeft: 6,
   },
   metaDifficulty: {
@@ -627,7 +627,7 @@ const styles = StyleSheet.create({
     fontSize: 16,
     lineHeight: 24,
     marginLeft: 8,
-    color: "#8A8A8A",
+    color: "#8E8E8E",
   },
   section: {
     marginBottom: 24,
@@ -706,12 +706,12 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   disabledButton: {
-    backgroundColor: "#8A8A8A",
+    backgroundcolor: "#8E8E8E",
   },
   noCommentsText: {
     fontSize: 16,
     lineHeight: 24,
-    color: "#8A8A8A",
+    color: "#8E8E8E",
     textAlign: "center",
     marginVertical: 16,
   },
@@ -744,7 +744,7 @@ const styles = StyleSheet.create({
   commentDate: {
     fontSize: 12,
     lineHeight: 16,
-    color: "#8A8A8A",
+    color: "#8E8E8E",
   },
   commentText: {
     fontSize: 16,

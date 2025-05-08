@@ -301,7 +301,7 @@ const styles = StyleSheet.create({
     color: "#000000",
     lineHeight: 24,
     marginRight: 8,
-    // color: "#8A8A8A",
+    // color: "#8E8E8E",
   },
   logoutButton: {
     flexDirection: "row",
@@ -323,10 +323,10 @@ const styles = StyleSheet.create({
   },
   versionText: {
     fontSize: 12,
-    color: "#8A8A8A",
+    color: "#8E8E8E",
     lineHeight: 16,
     textAlign: "center",
     marginBottom: 40,
-    // color: "#8A8A8A",
+    // color: "#8E8E8E",
   },
 });

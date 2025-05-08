@@ -196,7 +196,7 @@ const styles = StyleSheet.create({
   subtitle: {
     fontSize: 16,
     lineHeight: 24,
-    color: "#8A8A8A",
+    color: "#8E8E8E",
   },
   otpContainer: {
     flexDirection: "row",
@@ -235,12 +235,12 @@ const styles = StyleSheet.create({
   resendText: {
     fontSize: 16,
     lineHeight: 24,
-    color: "#8A8A8A",
+    color: "#8E8E8E",
   },
   timerText: {
     fontSize: 16,
     lineHeight: 24,
-    color: "#8A8A8A",
+    color: "#8E8E8E",
   },
   resendButton: {
     fontSize: 16,

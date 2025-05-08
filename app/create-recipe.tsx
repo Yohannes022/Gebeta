@@ -621,7 +621,7 @@ const styles = StyleSheet.create({
   imagePickerText: {
     fontSize: 16,
     lineHeight: 24,
-    color: "#8A8A8A",
+    color: "#8E8E8E",
     marginTop: 12,
   },
   imagePreviewContainer: {

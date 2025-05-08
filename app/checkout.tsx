@@ -502,7 +502,7 @@ const styles = StyleSheet.create({
     fontSize: 16,
     lineHeight: 24,
     marginTop: 16,
-    color: "#8A8A8A",
+    color: "#8E8E8E",
   },
   section: {
     backgroundColor: "#F9F5F0",
@@ -546,7 +546,7 @@ const styles = StyleSheet.create({
   emptyText: {
     fontSize: 16,
     lineHeight: 24,
-    color: "#8A8A8A",
+    color: "#8E8E8E",
     marginBottom: 12,
   },
   emptyButton: {
@@ -618,7 +618,7 @@ const styles = StyleSheet.create({
   summaryLabel: {
     fontSize: 16,
     lineHeight: 24,
-    color: "#8A8A8A",
+    color: "#8E8E8E",
   },
   summaryValue: {
     fontSize: 16,

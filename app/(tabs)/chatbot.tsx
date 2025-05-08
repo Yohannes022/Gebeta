@@ -286,7 +286,7 @@ const styles = StyleSheet.create({
   timestamp: {
     fontSize: 12,
     lineHeight: 16,
-    color: "#8A8A8A",
+    color: "#8E8E8E",
     marginTop: 4,
     alignSelf: "flex-end",
   },
@@ -307,7 +307,7 @@ const styles = StyleSheet.create({
   loadingText: {
     fontSize: 16,
     lineHeight: 24,
-    color: "#8A8A8A",
+    color: "#8E8E8E",
     marginLeft: 8,
   },
   inputContainer: {
@@ -340,6 +340,6 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   disabledButton: {
-    backgroundColor: "#8A8A8A",
+    backgroundcolor: "#8E8E8E",
   },
 });

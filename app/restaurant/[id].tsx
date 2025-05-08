@@ -546,7 +546,7 @@ const styles = StyleSheet.create({
     fontSize: 16,
     lineHeight: 24,
     marginTop: 16,
-    color: "#8A8A8A",
+    color: "#8E8E8E",
   },
   notFound: {
     flex: 1,
@@ -685,7 +685,7 @@ const styles = StyleSheet.create({
   reviewCount: {
     fontSize: 16,
     lineHeight: 24,
-    color: "#8A8A8A",
+    color: "#8E8E8E",
     marginLeft: 4,
   },
   writeReviewButton: {
@@ -711,12 +711,12 @@ const styles = StyleSheet.create({
   category: {
     fontSize: 16,
     lineHeight: 24,
-    color: "#8A8A8A",
+    color: "#8E8E8E",
   },
   categoryDot: {
     fontSize: 16,
     lineHeight: 24,
-    color: "#8A8A8A",
+    color: "#8E8E8E",
     marginHorizontal: 4,
   },
   metaContainer: {
@@ -907,7 +907,7 @@ const styles = StyleSheet.create({
   modalSubtitle: {
     fontSize: 16,
     lineHeight: 24,
-    color: "#8A8A8A",
+    color: "#8E8E8E",
     marginBottom: 20,
   },
   ratingSelector: {
@@ -967,7 +967,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   disabledButton: {
-    backgroundColor: "#8A8A8A",
+    backgroundcolor: "#8E8E8E",
   },
   submitButtonText: {
     fontSize: 16,

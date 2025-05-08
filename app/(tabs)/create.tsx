@@ -124,7 +124,7 @@ const styles = StyleSheet.create({
     fontSize: 16,
     color: "#000000",
     lineHeight: 24,
-    // color: "#8A8A8A",
+    // color: "#8E8E8E",
     marginBottom: 24,
   },
   createCard: {
@@ -156,7 +156,7 @@ const styles = StyleSheet.create({
     color: "#000000",
     lineHeight: 24,
     maxWidth: "90%",
-    // color: "#8A8A8A",
+    // color: "#8E8E8E",
   },
   createCardImage: {
     height: 150,
@@ -209,7 +209,7 @@ const styles = StyleSheet.create({
     fontSize: 16,
     color: "#000000",
     lineHeight: 24,
-    // color: "#8A8A8A",
+    // color: "#8E8E8E",
   },
   authPrompt: {
     flex: 1,
@@ -231,7 +231,7 @@ const styles = StyleSheet.create({
     lineHeight: 24,
     textAlign: "center",
     marginBottom: 24,
-    // color: "#8A8A8A",
+    // color: "#8E8E8E",
   },
   authButton: {
     backgroundColor: "#F9F5F0",

@@ -502,7 +502,7 @@ const styles = StyleSheet.create({
   emptyText: {
     fontSize: 16,
     lineHeight: 24,
-    color: "#8A8A8A",
+    color: "#8E8E8E",
     textAlign: "center",
   },
 });

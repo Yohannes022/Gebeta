@@ -381,7 +381,7 @@ const styles = StyleSheet.create({
     fontSize: 16,
     color: "#000000",
     lineHeight: 24,
-    // color: "#8A8A8A",
+    // color: "#8E8E8E",
   },
   totalPrice: {
     fontSize: 20,

@@ -526,7 +526,7 @@ const styles = StyleSheet.create({
     fontSize: 16,
     color: "#000000",
     lineHeight: 24,
-    // color: "#8A8A8A",
+    // color: "#8E8E8E",
     marginTop: 12,
   },
   imagePreviewContainer: {
@@ -549,7 +549,7 @@ const styles = StyleSheet.create({
   },
   changeImageText: {
     fontSize: 12,
-    color: "#8A8A8A",
+    color: "#8E8E8E",
     lineHeight: 16,
     // color: "#FFFFFF",
   },
@@ -596,7 +596,7 @@ const styles = StyleSheet.create({
   },
   regionButtonText: {
     fontSize: 12,
-    color: "#8A8A8A",
+    color: "#8E8E8E",
     lineHeight: 16,
     // color: "#000000",
   },
@@ -622,7 +622,7 @@ const styles = StyleSheet.create({
   },
   tagButtonText: {
     fontSize: 12,
-    color: "#8A8A8A",
+    color: "#8E8E8E",
     lineHeight: 16,
     // color: "#000000",
   },
@@ -711,7 +711,7 @@ const styles = StyleSheet.create({
   },
   errorText: {
     fontSize: 12,
-    color: "#8A8A8A",
+    color: "#8E8E8E",
     lineHeight: 16,
     // color: "#E53935",
     marginBottom: 8,

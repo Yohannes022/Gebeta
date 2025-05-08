@@ -199,10 +199,10 @@ const styles = StyleSheet.create({
   },
   label: {
     fontSize: 12,
-    color: "#8A8A8A",
+    color: "#8E8E8E",
     lineHeight: 16,
     textAlign: "center",
-    // color: "#8A8A8A",
+    // color: "#8E8E8E",
   },
   completedLabel: {
     color: "#000000",

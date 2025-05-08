@@ -214,9 +214,9 @@ const styles = StyleSheet.create({
   },
   orderDate: {
     fontSize: 12,
-    color: "#8A8A8A",
+    color: "#8E8E8E",
     lineHeight: 16,
-    color: "#8A8A8A",
+    color: "#8E8E8E",
     marginBottom: 4,
   },
   orderStatusContainer: {
@@ -225,7 +225,7 @@ const styles = StyleSheet.create({
   },
   orderStatus: {
     fontSize: 12,
-    color: "#8A8A8A",
+    color: "#8E8E8E",
     lineHeight: 16,
     color: "#D9A566",
     marginLeft: 4,
@@ -248,7 +248,7 @@ const styles = StyleSheet.create({
     fontSize: 16,
     color: "#000000",
     lineHeight: 24,
-    // color: "#8A8A8A",
+    // color: "#8E8E8E",
   },
   orderFooter: {
     flexDirection: "row",
@@ -269,7 +269,7 @@ const styles = StyleSheet.create({
   },
   trackButtonText: {
     fontSize: 12,
-    color: "#8A8A8A",
+    color: "#8E8E8E",
     lineHeight: 16,
     // color: "#FFFFFF",
     fontWeight: "600",
@@ -291,7 +291,7 @@ const styles = StyleSheet.create({
     fontSize: 16,
     color: "#000000",
     lineHeight: 24,
-    // color: "#8A8A8A",
+    // color: "#8E8E8E",
     textAlign: "center",
     marginBottom: 24,
   },

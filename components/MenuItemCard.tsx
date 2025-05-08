@@ -166,10 +166,10 @@ const styles = StyleSheet.create({
   },
   description: {
     fontSize: 12,
-    color: "#8A8A8A",
+    color: "#8E8E8E",
     lineHeight: 16,
     marginBottom: 8,
-    // color: "#8A8A8A",
+    // color: "#8E8E8E",
   },
   footer: {
     flexDirection: "row",
@@ -201,7 +201,7 @@ const styles = StyleSheet.create({
   },
   popularText: {
     fontSize: 12,
-    color: "#8A8A8A",
+    color: "#8E8E8E",
     lineHeight: 16,
     fontWeight: "600",
     // color: "#000000",
