@@ -137,13 +137,13 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 24,
     fontWeight: "700",
-    color: "#2D2D2D",
+    color: "#000000",
     letterSpacing: 0.2,
     marginBottom: 8,
   },
   subtitle: {
     fontSize: 16,
-    color: "#2D2D2D",
+    color: "#000000",
     lineHeight: 24,
     textAlign: "center",
     // color: "#8A8A8A",
@@ -156,7 +156,7 @@ const styles = StyleSheet.create({
   },
   errorText: {
     fontSize: 16,
-    color: "#2D2D2D",
+    color: "#000000",
     lineHeight: 24,
     marginTop: 8,
     marginBottom: 8,

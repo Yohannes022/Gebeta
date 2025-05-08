@@ -46,7 +46,7 @@ const styles = StyleSheet.create({
     color: "#8A8A8A",
     lineHeight: 16,
     fontWeight: "500",
-    // color: "#2D2D2D",
+    // color: "#000000",
   },
   selectedPillText: {
     color: "#FFFFFF",

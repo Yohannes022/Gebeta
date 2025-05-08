@@ -85,7 +85,7 @@ export default function OrderDetailScreen() {
       <View style={styles.notFound}>
         <Text style={{fontSize: 24,
     fontWeight: "700",
-    color: "#2D2D2D",
+    color: "#000000",
     letterSpacing: 0.2,}}>Order not found</Text>
         <TouchableOpacity
           style={styles.backButton}
@@ -339,7 +339,7 @@ const styles = StyleSheet.create({
   headerTitle: {
     fontSize: 20,
     fontWeight: "600",
-    color: "#2D2D2D",
+    color: "#000000",
     letterSpacing: 0.2,
   },
   notFound: {
@@ -350,7 +350,7 @@ const styles = StyleSheet.create({
   },
   backButtonText: {
     fontSize: 16,
-    color: "#2D2D2D",
+    color: "#000000",
     lineHeight: 24,
     // color: "#3E7EA6",
     fontWeight: "600",
@@ -369,7 +369,7 @@ const styles = StyleSheet.create({
   statusTitle: {
     fontSize: 20,
     fontWeight: "600",
-    color: "#2D2D2D",
+    color: "#000000",
     letterSpacing: 0.2,
   },
   timeContainer: {
@@ -382,7 +382,7 @@ const styles = StyleSheet.create({
   },
   timeText: {
     fontSize: 16,
-    color: "#2D2D2D",
+    color: "#000000",
     lineHeight: 24,
     // color: "#D9A566",
     fontWeight: "600",
@@ -411,12 +411,12 @@ const styles = StyleSheet.create({
   driverName: {
     fontSize: 18,
     fontWeight: "600",
-    color: "#2D2D2D",
+    color: "#000000",
     marginBottom: 2,
   },
   driverRole: {
     fontSize: 16,
-    color: "#2D2D2D",
+    color: "#000000",
     lineHeight: 24,
     // color: "#8A8A8A",
   },
@@ -433,7 +433,7 @@ const styles = StyleSheet.create({
   },
   driverActionText: {
     fontSize: 16,
-    color: "#2D2D2D",
+    color: "#000000",
     lineHeight: 24,
     // color: "#3E7EA6",
     fontWeight: "600",
@@ -465,12 +465,12 @@ const styles = StyleSheet.create({
   restaurantName: {
     fontSize: 18,
     fontWeight: "600",
-    color: "#2D2D2D",
+    color: "#000000",
     marginBottom: 4,
   },
   viewRestaurantText: {
     fontSize: 16,
-    color: "#2D2D2D",
+    color: "#000000",
     lineHeight: 24,
     // color: "#3E7EA6",
   },
@@ -485,7 +485,7 @@ const styles = StyleSheet.create({
   sectionTitle: {
     fontSize: 20,
     fontWeight: "600",
-    color: "#2D2D2D",
+    color: "#000000",
     letterSpacing: 0.2,
     marginBottom: 16,
   },
@@ -504,20 +504,20 @@ const styles = StyleSheet.create({
   },
   orderItemQuantity: {
     fontSize: 16,
-    color: "#2D2D2D",
+    color: "#000000",
     lineHeight: 24,
     fontWeight: "600",
     marginRight: 8,
   },
   orderItemName: {
     fontSize: 16,
-    color: "#2D2D2D",
+    color: "#000000",
     lineHeight: 24,
     flex: 1,
   },
   orderItemPrice: {
     fontSize: 16,
-    color: "#2D2D2D",
+    color: "#000000",
     lineHeight: 24,
     fontWeight: "600",
   },
@@ -536,14 +536,14 @@ const styles = StyleSheet.create({
   },
   infoText: {
     fontSize: 16,
-    color: "#2D2D2D",
+    color: "#000000",
     lineHeight: 24,
     marginLeft: 12,
     flex: 1,
   },
   instructionsText: {
     fontSize: 16,
-    color: "#2D2D2D",
+    color: "#000000",
     lineHeight: 24,
     // color: "#8A8A8A",
     fontStyle: "italic",
@@ -561,7 +561,7 @@ const styles = StyleSheet.create({
   },
   paymentMethodText: {
     fontSize: 16,
-    color: "#2D2D2D",
+    color: "#000000",
     lineHeight: 24,
     fontWeight: "500",
   },
@@ -572,13 +572,13 @@ const styles = StyleSheet.create({
   },
   summaryLabel: {
     fontSize: 16,
-    color: "#2D2D2D",
+    color: "#000000",
     lineHeight: 24,
     // color: "#8A8A8A",
   },
   summaryValue: {
     fontSize: 16,
-    color: "#2D2D2D",
+    color: "#000000",
     lineHeight: 24,
   },
   totalRow: {
@@ -590,12 +590,12 @@ const styles = StyleSheet.create({
   totalLabel: {
     fontSize: 18,
     fontWeight: "600",
-    color: "#2D2D2D",
+    color: "#000000",
   },
   totalValue: {
     fontSize: 18,
     fontWeight: "600",
-    color: "#2D2D2D",
+    color: "#000000",
     // color: "#3E7EA6",
   },
   orderInfo: {
@@ -604,14 +604,14 @@ const styles = StyleSheet.create({
   },
   orderInfoLabel: {
     fontSize: 16,
-    color: "#2D2D2D",
+    color: "#000000",
     lineHeight: 24,
     // color: "#8A8A8A",
     width: 100,
   },
   orderInfoValue: {
     fontSize: 16,
-    color: "#2D2D2D",
+    color: "#000000",
     lineHeight: 24,
     flex: 1,
   },

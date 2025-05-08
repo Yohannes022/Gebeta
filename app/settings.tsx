@@ -258,7 +258,7 @@ const styles = StyleSheet.create({
   headerTitle: {
     fontSize: 20,
     fontWeight: "600",
-    color: "#2D2D2D",
+    color: "#000000",
     letterSpacing: 0.2,
   },
   section: {
@@ -271,7 +271,7 @@ const styles = StyleSheet.create({
   sectionTitle: {
     fontSize: 18,
     fontWeight: "600",
-    color: "#2D2D2D",
+    color: "#000000",
     marginBottom: 16,
   },
   settingItem: {
@@ -288,7 +288,7 @@ const styles = StyleSheet.create({
   },
   settingLabel: {
     fontSize: 16,
-    color: "#2D2D2D",
+    color: "#000000",
     lineHeight: 24,
     marginLeft: 12,
   },
@@ -298,7 +298,7 @@ const styles = StyleSheet.create({
   },
   settingValueText: {
     fontSize: 16,
-    color: "#2D2D2D",
+    color: "#000000",
     lineHeight: 24,
     marginRight: 8,
     // color: "#8A8A8A",
@@ -315,7 +315,7 @@ const styles = StyleSheet.create({
   },
   logoutText: {
     fontSize: 16,
-    color: "#2D2D2D",
+    color: "#000000",
     lineHeight: 24,
     fontWeight: "600",
     marginLeft: 8,

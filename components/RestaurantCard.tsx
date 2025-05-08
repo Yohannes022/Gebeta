@@ -87,12 +87,12 @@ export default function RestaurantCard({
               variant === "featured" ? {
                 fontSize: 20,
                 fontWeight: "600",
-                color: "#2D2D2D",
+                color: "#000000",
                 letterSpacing: 0.2,
               } : {
                 fontSize: 18,
                 fontWeight: "600",
-                color: "#2D2D2D",
+                color: "#000000",
               },
               styles.title,
             ]}
@@ -223,7 +223,7 @@ const styles = StyleSheet.create({
   },
   rating: {
     fontSize: 16,
-    color: "#2D2D2D",
+    color: "#000000",
     lineHeight: 24,
     fontWeight: "600",
     marginLeft: 4,
@@ -255,10 +255,10 @@ const styles = StyleSheet.create({
   },
   description: {
     fontSize: 16,
-    color: "#2D2D2D",
+    color: "#000000",
     lineHeight: 24,
     marginBottom: 12,
-    // color: "#2D2D2D",
+    // color: "#000000",
   },
   footer: {
     flexDirection: "row",

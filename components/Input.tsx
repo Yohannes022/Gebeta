@@ -102,7 +102,7 @@ const styles = StyleSheet.create({
   },
   label: {
     fontSize: 16,
-    color: "#2D2D2D",
+    color: "#000000",
     lineHeight: 24,
     fontWeight: "500",
     // marginBottom: 8,
@@ -117,12 +117,12 @@ const styles = StyleSheet.create({
   },
   input: {
     fontSize: 16,
-    color: "#2D2D2D",
+    color: "#000000",
     lineHeight: 24,
     flex: 1,
     paddingHorizontal: 16,
     paddingVertical: 12,
-    // color: "#2D2D2D",
+    // color: "#000000",
   },
   multiline: {
     minHeight: 100,

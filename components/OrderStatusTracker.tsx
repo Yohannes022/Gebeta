@@ -139,7 +139,7 @@ const styles = StyleSheet.create({
   },
   pendingText: {
     fontSize: 16,
-    color: "#2D2D2D",
+    color: "#000000",
     lineHeight: 24,
     flex: 1,
     // color: "#D9A566",
@@ -152,7 +152,7 @@ const styles = StyleSheet.create({
   },
   cancelledText: {
     fontSize: 16,
-    color: "#2D2D2D",
+    color: "#000000",
     lineHeight: 24,
     fontWeight: "500",
     // color: "#E53935",
@@ -205,7 +205,7 @@ const styles = StyleSheet.create({
     // color: "#8A8A8A",
   },
   completedLabel: {
-    color: "#2D2D2D",
+    color: "#000000",
     fontWeight: "500",
   },
   currentLabel: {

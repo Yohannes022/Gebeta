@@ -323,20 +323,20 @@ const styles = StyleSheet.create({
   profileName: {
     fontSize: 24,
     fontWeight: "700",
-    color: "#2D2D2D",
+    color: "#000000",
     letterSpacing: 0.2,
     marginBottom: 4,
   },
   profileLocation: {
     fontSize: 16,
-    color: "#2D2D2D",
+    color: "#000000",
     lineHeight: 24,
     // color: "#8A8A8A",
     marginBottom: 12,
   },
   profileBio: {
     fontSize: 16,
-    color: "#2D2D2D",
+    color: "#000000",
     lineHeight: 24,
     textAlign: "center",
     marginBottom: 24,
@@ -354,7 +354,7 @@ const styles = StyleSheet.create({
   statNumber: {
     fontSize: 20,
     fontWeight: "600",
-    color: "#2D2D2D",
+    color: "#000000",
     letterSpacing: 0.2,
     marginBottom: 4,
   },
@@ -380,7 +380,7 @@ const styles = StyleSheet.create({
   },
   editProfileText: {
     fontSize: 16,
-    color: "#2D2D2D",
+    color: "#000000",
     lineHeight: 24,
     marginLeft: 8,
   },
@@ -400,13 +400,13 @@ const styles = StyleSheet.create({
   sectionTitle: {
     fontSize: 20,
     fontWeight: "600",
-    color: "#2D2D2D",
+    color: "#000000",
     letterSpacing: 0.2,
     marginBottom: 16,
   },
   seeAllText: {
     fontSize: 16,
-    color: "#2D2D2D",
+    color: "#000000",
     lineHeight: 24,
     // color: "#3E7EA6",
     fontWeight: "600",
@@ -425,7 +425,7 @@ const styles = StyleSheet.create({
   },
   menuItemText: {
     fontSize: 16,
-    color: "#2D2D2D",
+    color: "#000000",
     lineHeight: 24,
     marginLeft: 12,
   },
@@ -442,7 +442,7 @@ const styles = StyleSheet.create({
   },
   orderTitle: {
     fontSize: 16,
-    color: "#2D2D2D",
+    color: "#000000",
     lineHeight: 24,
     fontWeight: "600",
     marginBottom: 4,
@@ -489,7 +489,7 @@ const styles = StyleSheet.create({
   },
   tabText: {
     fontSize: 16,
-    color: "#2D2D2D",
+    color: "#000000",
     lineHeight: 24,
     // color: "#8A8A8A",
     marginLeft: 8,
@@ -508,13 +508,13 @@ const styles = StyleSheet.create({
   emptyStateTitle: {
     fontSize: 20,
     fontWeight: "600",
-    color: "#2D2D2D",
+    color: "#000000",
     letterSpacing: 0.2,
     marginBottom: 8,
   },
   emptyStateText: {
     fontSize: 16,
-    color: "#2D2D2D",
+    color: "#000000",
     lineHeight: 24,
     // color: "#8A8A8A",
     textAlign: "center",

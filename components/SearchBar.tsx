@@ -51,11 +51,11 @@ const styles = StyleSheet.create({
   },
   input: {
     fontSize: 16,
-    color: "#2D2D2D",
+    color: "#000000",
     lineHeight: 24,
     flex: 1,
     padding: 0,
-    // color: "#2D2D2D",
+    // color: "#000000",
   },
   clearButton: {
     padding: 4,

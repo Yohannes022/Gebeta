@@ -188,7 +188,7 @@ const styles = StyleSheet.create({
   headerTitle: {
     fontSize: 20,
     fontWeight: "600",
-    color: "#2D2D2D",
+    color: "#000000",
     letterSpacing: 0.2,
   },
   scrollContent: {

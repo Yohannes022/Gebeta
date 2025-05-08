@@ -383,7 +383,7 @@ const styles = StyleSheet.create({
   sortOptionText: {
     fontSize: 16,
     lineHeight: 24,
-    color: "#2D2D2D",
+    color: "#000000",
   },
   selectedSortOptionText: {
     color: "#3E7EA6",
@@ -441,7 +441,7 @@ const styles = StyleSheet.create({
   difficultyButtonText: {
     fontSize: 16,
     lineHeight: 24,
-    color: "#2D2D2D",
+    color: "#000000",
   },
   selectedDifficultyButtonText: {
     color: "#FFFFFF",
@@ -466,7 +466,7 @@ const styles = StyleSheet.create({
   timeButtonText: {
     fontSize: 16,
     lineHeight: 24,
-    color: "#2D2D2D",
+    color: "#000000",
   },
   selectedTimeButtonText: {
     color: "#FFFFFF",

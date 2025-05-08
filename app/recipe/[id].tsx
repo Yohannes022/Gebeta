@@ -62,7 +62,7 @@ export default function RecipeDetailScreen() {
         <Text style={{fontSize: 24,
     fontWeight: "700",
     letterSpacing: 0.2,
-    color: "#2D2D2D",}}>Recipe not found</Text>
+    color: "#000000",}}>Recipe not found</Text>
         <TouchableOpacity
           style={styles.backButton}
           onPress={() => router.back()}

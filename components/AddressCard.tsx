@@ -121,7 +121,7 @@ const styles = StyleSheet.create({
   },
   label: {
     fontSize: 16,
-    color: "#2D2D2D",
+    color: "#000000",
     lineHeight: 24,
     fontWeight: "600",
     marginLeft: 8,
@@ -153,13 +153,13 @@ const styles = StyleSheet.create({
   },
   address: {
     fontSize: 16,
-    color: "#2D2D2D",
+    color: "#000000",
     lineHeight: 24,
     marginBottom: 4,
   },
   city: {
     fontSize: 16,
-    color: "#2D2D2D",
+    color: "#000000",
     lineHeight: 24,
     marginBottom: 8,
     // color: "#8A8A8A",

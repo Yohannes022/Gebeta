@@ -665,7 +665,7 @@ const styles = StyleSheet.create({
   difficultyButtonText: {
     fontSize: 16,
     lineHeight: 24,
-    color: "#2D2D2D",
+    color: "#000000",
   },
   selectedDifficulty: {
     backgroundColor: "#F9F5F0",
@@ -690,7 +690,7 @@ const styles = StyleSheet.create({
   regionButtonText: {
     fontSize: 12,
     lineHeight: 16,
-    color: "#2D2D2D",
+    color: "#000000",
   },
   selectedRegion: {
     backgroundColor: "#F9F5F0",
@@ -715,7 +715,7 @@ const styles = StyleSheet.create({
   tagButtonText: {
     fontSize: 12,
     lineHeight: 16,
-    color: "#2D2D2D",
+    color: "#000000",
   },
   selectedTag: {
     backgroundColor: "#F9F5F0",

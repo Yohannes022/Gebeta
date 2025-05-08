@@ -153,7 +153,7 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 18,
     fontWeight: "600",
-    color: "#2D2D2D",
+    color: "#000000",
     flex: 1,
     marginRight: 8,
     // fontSize: 16,
@@ -178,7 +178,7 @@ const styles = StyleSheet.create({
   },
   price: {
     fontSize: 16,
-    color: "#2D2D2D",
+    color: "#000000",
     lineHeight: 24,
     // fontWeight: "600",
   },
@@ -204,7 +204,7 @@ const styles = StyleSheet.create({
     color: "#8A8A8A",
     lineHeight: 16,
     fontWeight: "600",
-    // color: "#2D2D2D",
+    // color: "#000000",
     // fontSize: 10,
   },
 });

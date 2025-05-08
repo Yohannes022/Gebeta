@@ -519,7 +519,7 @@ const styles = StyleSheet.create({
   sortOptionText: {
     fontSize: 16,
     lineHeight: 24,
-    color: "#2D2D2D",
+    color: "#000000",
   },
   selectedSortOptionText: {
     color: "#3E7EA6",
@@ -577,7 +577,7 @@ const styles = StyleSheet.create({
   priceLevelButtonText: {
     fontSize: 16,
     lineHeight: 24,
-    color: "#2D2D2D",
+    color: "#000000",
   },
   selectedPriceLevelButtonText: {
     color: "#FFFFFF",
@@ -602,7 +602,7 @@ const styles = StyleSheet.create({
   deliveryTimeButtonText: {
     fontSize: 16,
     lineHeight: 24,
-    color: "#2D2D2D",
+    color: "#000000",
   },
   selectedDeliveryTimeButtonText: {
     color: "#FFFFFF",

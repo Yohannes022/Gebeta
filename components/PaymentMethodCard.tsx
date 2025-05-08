@@ -141,7 +141,7 @@ const styles = StyleSheet.create({
   },
   methodName: {
     fontSize: 16,
-    color: "#2D2D2D",
+    color: "#000000",
     lineHeight: 24,
     fontWeight: "600",
   },

@@ -493,13 +493,13 @@ const styles = StyleSheet.create({
   sectionTitle: {
     fontSize: 24,
     fontWeight: "700",
-    color: "#2D2D2D",
+    color: "#000000",
     letterSpacing: 0.2,
     marginBottom: 20,
   },
   label: {
     fontSize: 16,
-    color: "#2D2D2D",
+    color: "#000000",
     lineHeight: 24,
     fontWeight: "500",
     marginBottom: 8,
@@ -524,7 +524,7 @@ const styles = StyleSheet.create({
   },
   imagePickerText: {
     fontSize: 16,
-    color: "#2D2D2D",
+    color: "#000000",
     lineHeight: 24,
     // color: "#8A8A8A",
     marginTop: 12,
@@ -570,9 +570,9 @@ const styles = StyleSheet.create({
   },
   difficultyButtonText: {
     fontSize: 16,
-    color: "#2D2D2D",
+    color: "#000000",
     lineHeight: 24,
-    // color: "#2D2D2D",
+    // color: "#000000",
   },
   selectedDifficulty: {
     backgroundColor: "#F9F5F0",
@@ -598,7 +598,7 @@ const styles = StyleSheet.create({
     fontSize: 12,
     color: "#8A8A8A",
     lineHeight: 16,
-    // color: "#2D2D2D",
+    // color: "#000000",
   },
   selectedRegion: {
     backgroundColor: "#F9F5F0",
@@ -624,7 +624,7 @@ const styles = StyleSheet.create({
     fontSize: 12,
     color: "#8A8A8A",
     lineHeight: 16,
-    // color: "#2D2D2D",
+    // color: "#000000",
   },
   selectedTag: {
     backgroundColor: "#F9F5F0",
@@ -678,7 +678,7 @@ const styles = StyleSheet.create({
   },
   addButtonText: {
     fontSize: 16,
-    color: "#2D2D2D",
+    color: "#000000",
     lineHeight: 24,
     // color: "#3E7EA6",
     marginLeft: 8,

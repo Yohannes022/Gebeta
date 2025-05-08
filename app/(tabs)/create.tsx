@@ -116,13 +116,13 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 24,
     fontWeight: "700",
-    color: "#2D2D2D",
+    color: "#000000",
     letterSpacing: 0.2,
     marginBottom: 8,
   },
   subtitle: {
     fontSize: 16,
-    color: "#2D2D2D",
+    color: "#000000",
     lineHeight: 24,
     // color: "#8A8A8A",
     marginBottom: 24,
@@ -147,13 +147,13 @@ const styles = StyleSheet.create({
   createCardTitle: {
     fontSize: 20,
     fontWeight: "600",
-    color: "#2D2D2D",
+    color: "#000000",
     letterSpacing: 0.2,
     marginBottom: 4,
   },
   createCardText: {
     fontSize: 16,
-    color: "#2D2D2D",
+    color: "#000000",
     lineHeight: 24,
     maxWidth: "90%",
     // color: "#8A8A8A",
@@ -175,7 +175,7 @@ const styles = StyleSheet.create({
   tipsTitle: {
     fontSize: 20,
     fontWeight: "600",
-    color: "#2D2D2D",
+    color: "#000000",
     letterSpacing: 0.2,
     marginBottom: 16,
   },
@@ -202,12 +202,12 @@ const styles = StyleSheet.create({
   tipItemTitle: {
     fontSize: 18,
     fontWeight: "600",
-    color: "#2D2D2D",
+    color: "#000000",
     marginBottom: 4,
   },
   tipItemText: {
     fontSize: 16,
-    color: "#2D2D2D",
+    color: "#000000",
     lineHeight: 24,
     // color: "#8A8A8A",
   },
@@ -220,14 +220,14 @@ const styles = StyleSheet.create({
   authTitle: {
     fontSize: 24,
     fontWeight: "700",
-    color: "#2D2D2D",
+    color: "#000000",
     letterSpacing: 0.2,
     marginBottom: 12,
     textAlign: "center",
   },
   authText: {
     fontSize: 16,
-    color: "#2D2D2D",
+    color: "#000000",
     lineHeight: 24,
     textAlign: "center",
     marginBottom: 24,

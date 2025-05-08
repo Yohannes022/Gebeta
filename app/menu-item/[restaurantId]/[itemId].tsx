@@ -41,7 +41,7 @@ export default function MenuItemDetailScreen() {
       <View style={styles.notFound}>
         <Text style={{fontSize: 24,
     fontWeight: "700",
-    color: "#2D2D2D",
+    color: "#000000",
     letterSpacing: 0.2,}}>Item not found</Text>
         <TouchableOpacity
           style={styles.backButton}
@@ -277,7 +277,7 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 28,
     fontWeight: "700",
-    color: "#2D2D2D",
+    color: "#000000",
     letterSpacing: 0.3,
     flex: 1,
     marginRight: 16,
@@ -285,13 +285,13 @@ const styles = StyleSheet.create({
   price: {
     fontSize: 24,
     fontWeight: "700",
-    color: "#2D2D2D",
+    color: "#000000",
     letterSpacing: 0.2,
     // color: "#3E7EA6",
   },
   description: {
     fontSize: 16,
-    color: "#2D2D2D",
+    color: "#000000",
     lineHeight: 24,
     // lineHeight: 24,
     marginBottom: 24,
@@ -302,7 +302,7 @@ const styles = StyleSheet.create({
   sectionTitle: {
     fontSize: 20,
     fontWeight: "600",
-    color: "#2D2D2D",
+    color: "#000000",
     letterSpacing: 0.2,
     marginBottom: 12,
   },
@@ -320,7 +320,7 @@ const styles = StyleSheet.create({
   },
   ingredientText: {
     fontSize: 16,
-    color: "#2D2D2D",
+    color: "#000000",
     lineHeight: 24
   },
   instructionsInput: {
@@ -329,7 +329,7 @@ const styles = StyleSheet.create({
     padding: 12,
     minHeight: 80,
     fontSize: 16,
-    color: "#2D2D2D",
+    color: "#000000",
     lineHeight: 24,
     textAlignVertical: "top",
   },
@@ -342,7 +342,7 @@ const styles = StyleSheet.create({
   quantityTitle: {
     fontSize: 20,
     fontWeight: "600",
-    color: "#2D2D2D",
+    color: "#000000",
     letterSpacing: 0.2,
   },
   quantityControls: {
@@ -360,7 +360,7 @@ const styles = StyleSheet.create({
   quantityText: {
     fontSize: 20,
     fontWeight: "600",
-    color: "#2D2D2D",
+    color: "#000000",
     letterSpacing: 0.2,
     marginHorizontal: 16,
     minWidth: 30,
@@ -379,14 +379,14 @@ const styles = StyleSheet.create({
   },
   totalLabel: {
     fontSize: 16,
-    color: "#2D2D2D",
+    color: "#000000",
     lineHeight: 24,
     // color: "#8A8A8A",
   },
   totalPrice: {
     fontSize: 20,
     fontWeight: "600",
-    color: "#2D2D2D",
+    color: "#000000",
     letterSpacing: 0.2,
   },
   addButton: {

@@ -100,7 +100,7 @@ export default function RestaurantDetailScreen() {
         <Text style={{fontSize: 24,
     fontWeight: "700",
     letterSpacing: 0.2,
-    color: "#2D2D2D",}}>Restaurant not found</Text>
+    color: "#000000",}}>Restaurant not found</Text>
         <TouchableOpacity
           style={styles.backButton}
           onPress={() => router.back()}
@@ -956,7 +956,7 @@ const styles = StyleSheet.create({
   cancelButtonText: {
     fontSize: 16,
     lineHeight: 24,
-    color: "#2D2D2D",
+    color: "#000000",
   },
   submitButton: {
     flex: 1,

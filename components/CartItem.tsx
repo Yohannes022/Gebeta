@@ -117,20 +117,20 @@ const styles = StyleSheet.create({
   },
   quantity: {
     fontSize: 16,
-    color: "#2D2D2D",
+    color: "#000000",
     lineHeight: 24,
     fontWeight: "600",
     marginRight: 8,
   },
   name: {
     fontSize: 16,
-    color: "#2D2D2D",
+    color: "#000000",
     lineHeight: 24,
     flex: 1,
   },
   price: {
     fontSize: 16,
-    color: "#2D2D2D",
+    color: "#000000",
     lineHeight: 24,
     fontWeight: "600",
   },
@@ -172,7 +172,7 @@ const styles = StyleSheet.create({
   },
   quantityText: {
     fontSize: 16,
-    color: "#2D2D2D",
+    color: "#000000",
     lineHeight: 24,
     marginHorizontal: 12,
     minWidth: 20,

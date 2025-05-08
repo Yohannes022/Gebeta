@@ -138,7 +138,7 @@ export default function DeliveryTrackingScreen() {
         <Text style={{fontSize: 24,
     fontWeight: "700",
     letterSpacing: 0.2,
-    color: "#2D2D2D",}}>Order not found</Text>
+    color: "#000000",}}>Order not found</Text>
         <TouchableOpacity
           style={styles.backButton}
           onPress={() => router.replace("/profile")}

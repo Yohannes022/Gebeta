@@ -178,14 +178,14 @@ const styles = StyleSheet.create({
   emptyTitle: {
     fontSize: 24,
     fontWeight: "700",
-    color: "#2D2D2D",
+    color: "#000000",
     letterSpacing: 0.2,
     marginTop: 16,
     marginBottom: 8,
   },
   emptyText: {
     fontSize: 16,
-    color: "#2D2D2D",
+    color: "#000000",
     lineHeight: 24,
     // color: "#8A8A8A",
     textAlign: "center",
@@ -218,12 +218,12 @@ const styles = StyleSheet.create({
   restaurantName: {
     fontSize: 18,
     fontWeight: "600",
-    color: "#2D2D2D",
+    color: "#000000",
     marginBottom: 4,
   },
   addMoreText: {
     fontSize: 16,
-    color: "#2D2D2D",
+    color: "#000000",
     lineHeight: 24
     // color: "#3E7EA6",
   },
@@ -239,12 +239,12 @@ const styles = StyleSheet.create({
   sectionTitle: {
     fontSize: 20,
     fontWeight: "600",
-    color: "#2D2D2D",
+    color: "#000000",
     letterSpacing: 0.2,
   },
   clearText: {
     fontSize: 16,
-    color: "#2D2D2D",
+    color: "#000000",
     lineHeight: 24
     // color: "#E53935",
   },
@@ -258,7 +258,7 @@ const styles = StyleSheet.create({
   summaryTitle: {
     fontSize: 20,
     fontWeight: "600",
-    color: "#2D2D2D",
+    color: "#000000",
     letterSpacing: 0.2,
     marginBottom: 16,
   },
@@ -269,13 +269,13 @@ const styles = StyleSheet.create({
   },
   summaryLabel: {
     fontSize: 16,
-    color: "#2D2D2D",
+    color: "#000000",
     lineHeight: 24,
     // color: "#8A8A8A",
   },
   summaryValue: {
     fontSize: 16,
-    color: "#2D2D2D",
+    color: "#000000",
     lineHeight: 24,
   },
   totalRow: {
@@ -287,12 +287,12 @@ const styles = StyleSheet.create({
   totalLabel: {
     fontSize: 18,
     fontWeight: "600",
-    color: "#2D2D2D",
+    color: "#000000",
   },
   totalValue: {
     fontSize: 18,
     fontWeight: "600",
-    color: "#2D2D2D",
+    color: "#000000",
     // color: "#3E7EA6",
   },
   checkoutContainer: {
