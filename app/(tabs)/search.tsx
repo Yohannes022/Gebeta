@@ -375,7 +375,7 @@ const styles = StyleSheet.create({
     paddingVertical: 12,
     paddingHorizontal: 16,
     borderBottomWidth: 1,
-    borderBottomColor: "#E0E0E0",
+    borderBottomcolor: "#DBDBDB",
   },
   selectedSortOption: {
     backgroundColor: "#F9F5F0" + "10",
@@ -476,7 +476,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     paddingVertical: 12,
     borderTopWidth: 1,
-    borderTopColor: "#E0E0E0",
+    borderTopcolor: "#DBDBDB",
   },
   clearAllText: {
     fontSize: 16,

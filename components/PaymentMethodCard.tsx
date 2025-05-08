@@ -119,7 +119,7 @@ const styles = StyleSheet.create({
     padding: 16,
     marginBottom: 12,
     borderWidth: 1,
-    borderColor: "#E0E0E0",
+    bordercolor: "#DBDBDB",
   },
   selectedContainer: {
     borderColor: "#3E7EA6",
@@ -180,7 +180,7 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     marginTop: 12,
     borderTopWidth: 1,
-    borderTopColor: "#E0E0E0",
+    borderTopcolor: "#DBDBDB",
     paddingTop: 12,
   },
   actionButton: {

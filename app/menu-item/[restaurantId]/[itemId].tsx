@@ -370,7 +370,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#F9F5F0",
     padding: 20,
     borderTopWidth: 1,
-    borderTopColor: "#E0E0E0",
+    borderTopcolor: "#DBDBDB",
     flexDirection: "row",
     alignItems: "center",
   },

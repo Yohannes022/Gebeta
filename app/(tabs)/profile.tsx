@@ -367,7 +367,7 @@ const styles = StyleSheet.create({
   statDivider: {
     width: 1,
     height: "80%",
-    backgroundColor: "#E0E0E0",
+    backgroundcolor: "#DBDBDB",
   },
   editProfileButton: {
     flexDirection: "row",
@@ -375,7 +375,7 @@ const styles = StyleSheet.create({
     paddingVertical: 8,
     paddingHorizontal: 16,
     borderWidth: 1,
-    borderColor: "#E0E0E0",
+    bordercolor: "#DBDBDB",
     borderRadius: 20,
   },
   editProfileText: {
@@ -417,7 +417,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     paddingVertical: 12,
     borderBottomWidth: 1,
-    borderBottomColor: "#E0E0E0",
+    borderBottomcolor: "#DBDBDB",
   },
   menuItemLeft: {
     flexDirection: "row",
@@ -435,7 +435,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     paddingVertical: 12,
     borderBottomWidth: 1,
-    borderBottomColor: "#E0E0E0",
+    borderBottomcolor: "#DBDBDB",
   },
   orderInfo: {
     flex: 1,
@@ -473,7 +473,7 @@ const styles = StyleSheet.create({
   tabsContainer: {
     flexDirection: "row",
     borderBottomWidth: 1,
-    borderBottomColor: "#E0E0E0",
+    borderBottomcolor: "#DBDBDB",
     backgroundColor: "#F9F5F0",
   },
   tabButton: {

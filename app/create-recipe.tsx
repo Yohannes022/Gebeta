@@ -615,7 +615,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     marginBottom: 16,
     borderWidth: 1,
-    borderColor: "#E0E0E0",
+    bordercolor: "#DBDBDB",
     borderStyle: "dashed",
   },
   imagePickerText: {
@@ -660,7 +660,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     backgroundColor: "#F5F5F5",
     borderWidth: 1,
-    borderColor: "#E0E0E0",
+    bordercolor: "#DBDBDB",
   },
   difficultyButtonText: {
     fontSize: 16,
@@ -726,7 +726,7 @@ const styles = StyleSheet.create({
   },
   divider: {
     height: 1,
-    backgroundColor: "#E0E0E0",
+    backgroundcolor: "#DBDBDB",
     marginVertical: 24,
   },
   ingredientRow: {
@@ -764,7 +764,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#F5F5F5",
     borderRadius: 8,
     borderWidth: 1,
-    borderColor: "#E0E0E0",
+    bordercolor: "#DBDBDB",
     borderStyle: "dashed",
   },
   addButtonText: {
@@ -836,7 +836,7 @@ const styles = StyleSheet.create({
   },
   validationScoreBar: {
     height: 8,
-    backgroundColor: "#E0E0E0",
+    backgroundcolor: "#DBDBDB",
     borderRadius: 4,
     overflow: "hidden",
     marginBottom: 4,

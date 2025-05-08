@@ -171,7 +171,7 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     borderWidth: 2,
-    borderColor: "#E0E0E0",
+    bordercolor: "#DBDBDB",
   },
   completedStep: {
     backgroundColor: "#F9F5F0",
@@ -184,7 +184,7 @@ const styles = StyleSheet.create({
   connector: {
     flex: 1,
     height: 3,
-    backgroundColor: "#E0E0E0",
+    backgroundcolor: "#DBDBDB",
   },
   completedConnector: {
     backgroundColor: "#F9F5F0",

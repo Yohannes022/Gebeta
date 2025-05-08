@@ -214,7 +214,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 20,
     backgroundColor: "#F9F5F0",
     borderBottomWidth: 1,
-    borderBottomColor: "#E0E0E0",
+    borderBottomcolor: "#DBDBDB",
   },
   headerTitle: {
     fontSize: 20,
@@ -315,7 +315,7 @@ const styles = StyleSheet.create({
     padding: 16,
     backgroundColor: "#F9F5F0",
     borderTopWidth: 1,
-    borderTopColor: "#E0E0E0",
+    borderTopcolor: "#DBDBDB",
   },
   input: {
     flex: 1,

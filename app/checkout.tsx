@@ -565,7 +565,7 @@ const styles = StyleSheet.create({
     marginRight: 8,
     marginBottom: 8,
     borderWidth: 1,
-    borderColor: "#E0E0E0",
+    bordercolor: "#DBDBDB",
   },
   selectedTipButton: {
     backgroundColor: "#F9F5F0" + "20", // 20% opacity
@@ -626,7 +626,7 @@ const styles = StyleSheet.create({
   },
   totalRow: {
     borderTopWidth: 1,
-    borderTopColor: "#E0E0E0",
+    borderTopcolor: "#DBDBDB",
     paddingTop: 12,
     marginTop: 4,
   },
@@ -661,6 +661,6 @@ const styles = StyleSheet.create({
     backgroundColor: "#F9F5F0",
     padding: 20,
     borderTopWidth: 1,
-    borderTopColor: "#E0E0E0",
+    borderTopcolor: "#DBDBDB",
   },
 });

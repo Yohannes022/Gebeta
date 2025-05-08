@@ -423,7 +423,7 @@ const styles = StyleSheet.create({
   driverActions: {
     flexDirection: "row",
     borderTopWidth: 1,
-    borderTopColor: "#E0E0E0",
+    borderTopcolor: "#DBDBDB",
     paddingTop: 12,
   },
   driverAction: {
@@ -496,7 +496,7 @@ const styles = StyleSheet.create({
     marginBottom: 12,
     paddingBottom: 12,
     borderBottomWidth: 1,
-    borderBottomColor: "#E0E0E0",
+    borderBottomcolor: "#DBDBDB",
   },
   orderItemHeader: {
     flexDirection: "row",
@@ -583,7 +583,7 @@ const styles = StyleSheet.create({
   },
   totalRow: {
     borderTopWidth: 1,
-    borderTopColor: "#E0E0E0",
+    borderTopcolor: "#DBDBDB",
     paddingTop: 12,
     marginTop: 4,
   },

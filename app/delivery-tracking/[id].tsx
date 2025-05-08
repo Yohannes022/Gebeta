@@ -164,7 +164,7 @@ export default function DeliveryTrackingScreen() {
       
       <View style={styles.mapContainer}>
         {Platform.OS === "web" ? (
-          <View style={[styles.map, { backgroundColor: "#e0e0e0", justifyContent: "center", alignItems: "center" }]}>
+          <View style={[styles.map, { backgroundcolor: "#DBDBDB", justifyContent: "center", alignItems: "center" }]}>
             <Text style={{ fontSize: 16,
     lineHeight: 24, color: "#8A8A8A" }}>Map View</Text>
             <Text style={{ fontSize: 12,
@@ -529,7 +529,7 @@ const styles = StyleSheet.create({
   },
   orderSummaryContainer: {
     borderTopWidth: 1,
-    borderTopColor: "#E0E0E0",
+    borderTopcolor: "#DBDBDB",
     paddingTop: 16,
   },
   orderSummaryTitle: {
@@ -560,7 +560,7 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     justifyContent: "space-between",
     borderTopWidth: 1,
-    borderTopColor: "#E0E0E0",
+    borderTopcolor: "#DBDBDB",
     paddingTop: 12,
   },
   totalLabel: {

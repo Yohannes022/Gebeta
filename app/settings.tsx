@@ -280,7 +280,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     paddingVertical: 12,
     borderBottomWidth: 1,
-    borderBottomColor: "#E0E0E0",
+    borderBottomcolor: "#DBDBDB",
   },
   settingInfo: {
     flexDirection: "row",

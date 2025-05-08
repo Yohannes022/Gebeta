@@ -238,9 +238,9 @@ const styles = StyleSheet.create({
   },
   orderItems: {
     borderTopWidth: 1,
-    borderTopColor: "#E0E0E0",
+    borderTopcolor: "#DBDBDB",
     borderBottomWidth: 1,
-    borderBottomColor: "#E0E0E0",
+    borderBottomcolor: "#DBDBDB",
     paddingVertical: 12,
     marginBottom: 12,
   },
