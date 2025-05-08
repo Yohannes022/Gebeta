@@ -196,7 +196,7 @@ export default function MenuItemDetailScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#F9F5F0",
+    backgroundColor: "#FFFFFF",
   },
   notFound: {
     flex: 1,
@@ -208,7 +208,7 @@ const styles = StyleSheet.create({
     marginTop: 16,
     paddingVertical: 8,
     paddingHorizontal: 16,
-    backgroundColor: "#F9F5F0",
+    backgroundColor: "#FFFFFF",
     borderRadius: 8,
   },
   backButtonText: {
@@ -251,7 +251,7 @@ const styles = StyleSheet.create({
   badge: {
     flexDirection: "row",
     alignItems: "center",
-    backgroundColor: "#F9F5F0",
+    backgroundColor: "#FFFFFF",
     paddingHorizontal: 12,
     paddingVertical: 6,
     borderRadius: 20,
@@ -367,7 +367,7 @@ const styles = StyleSheet.create({
     textAlign: "center",
   },
   footer: {
-    backgroundColor: "#F9F5F0",
+    backgroundColor: "#FFFFFF",
     padding: 20,
     borderTopWidth: 1,
     borderTopcolor: "#DBDBDB",

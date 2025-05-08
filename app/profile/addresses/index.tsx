@@ -101,7 +101,7 @@ export default function AddressesScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#F9F5F0",
+    backgroundColor: "#FFFFFF",
   },
   header: {
     flexDirection: "row",
@@ -110,7 +110,7 @@ const styles = StyleSheet.create({
     paddingTop: Platform.OS === "ios" ? 50 : 20,
     insetBlockEnd: 10,
     paddingHorizontal: 20,
-    backgroundColor: "#F9F5F0",
+    backgroundColor: "#FFFFFF",
   },
   backButton: {
     width: 40,
@@ -131,7 +131,7 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     alignItems: "center",
     justifyContent: "center",
-    backgroundColor: "#F9F5F0",
+    backgroundColor: "#FFFFFF",
     borderRadius: 12,
     padding: 16,
     marginBottom: 20,

@@ -98,7 +98,7 @@ export default function AddressCard({
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: "#F9F5F0",
+    backgroundColor: "#FFFFFF",
     borderRadius: 12,
     padding: 16,
     marginBottom: 12,
@@ -107,7 +107,7 @@ const styles = StyleSheet.create({
   },
   selectedContainer: {
     borderColor: "#3E7EA6",
-    backgroundColor: "#F9F5F0" + "10", // 10% opacity
+    backgroundColor: "#FFFFFF" + "10", // 10% opacity
   },
   header: {
     flexDirection: "row",
@@ -147,7 +147,7 @@ const styles = StyleSheet.create({
     width: 24,
     height: 24,
     borderRadius: 12,
-    backgroundColor: "#F9F5F0",
+    backgroundColor: "#FFFFFF",
     justifyContent: "center",
     alignItems: "center",
   },

@@ -399,14 +399,14 @@ export default function RestaurantsScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#F9F5F0",
+    backgroundColor: "#FFFFFF",
     padding: 20,
   },
   loadingContainer: {
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
-    backgroundColor: "#F9F5F0",
+    backgroundColor: "#FFFFFF",
   },
   loadingText: {
     fontSize: 16,
@@ -419,7 +419,7 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     padding: 20,
-    backgroundColor: "#F9F5F0",
+    backgroundColor: "#FFFFFF",
   },
   errorTitle: {
     fontSize: 20,
@@ -435,7 +435,7 @@ const styles = StyleSheet.create({
     marginBottom: 24,
   },
   retryButton: {
-    backgroundColor: "#F9F5F0",
+    backgroundColor: "#FFFFFF",
     paddingVertical: 12,
     paddingHorizontal: 24,
     borderRadius: 8,
@@ -465,7 +465,7 @@ const styles = StyleSheet.create({
     marginLeft: 12,
   },
   activeFilterButton: {
-    backgroundColor: "#F9F5F0",
+    backgroundColor: "#FFFFFF",
   },
   sortButton: {
     flexDirection: "row",
@@ -484,7 +484,7 @@ const styles = StyleSheet.create({
   locationPermissionButton: {
     flexDirection: "row",
     alignItems: "center",
-    backgroundColor: "#F9F5F0" + "15",
+    backgroundColor: "#FFFFFF" + "15",
     paddingVertical: 8,
     paddingHorizontal: 12,
     borderRadius: 8,
@@ -497,7 +497,7 @@ const styles = StyleSheet.create({
     marginLeft: 8,
   },
   sortOptionsContainer: {
-    backgroundColor: "#F9F5F0",
+    backgroundColor: "#FFFFFF",
     borderRadius: 12,
     marginBottom: 16,
     elevation: 2,
@@ -514,7 +514,7 @@ const styles = StyleSheet.create({
     borderBottomcolor: "#DBDBDB",
   },
   selectedSortOption: {
-    backgroundColor: "#F9F5F0" + "10",
+    backgroundColor: "#FFFFFF" + "10",
   },
   sortOptionText: {
     fontSize: 16,
@@ -526,7 +526,7 @@ const styles = StyleSheet.create({
     fontWeight: "600",
   },
   filtersContainer: {
-    backgroundColor: "#F9F5F0",
+    backgroundColor: "#FFFFFF",
     borderRadius: 16,
     padding: 16,
     marginBottom: 16,
@@ -572,7 +572,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   selectedPriceLevelButton: {
-    backgroundColor: "#F9F5F0",
+    backgroundColor: "#FFFFFF",
   },
   priceLevelButtonText: {
     fontSize: 16,
@@ -597,7 +597,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   selectedDeliveryTimeButton: {
-    backgroundColor: "#F9F5F0",
+    backgroundColor: "#FFFFFF",
   },
   deliveryTimeButtonText: {
     fontSize: 16,

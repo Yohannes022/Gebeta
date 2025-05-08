@@ -99,7 +99,7 @@ export default function CartItem({
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: "#F9F5F0",
+    backgroundColor: "#FFFFFF",
     borderRadius: 12,
     padding: 16,
     marginBottom: 12,

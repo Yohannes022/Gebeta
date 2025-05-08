@@ -174,7 +174,7 @@ const styles = StyleSheet.create({
     bordercolor: "#DBDBDB",
   },
   completedStep: {
-    backgroundColor: "#F9F5F0",
+    backgroundColor: "#FFFFFF",
     borderColor: "#3E7EA6",
   },
   currentStep: {
@@ -187,7 +187,7 @@ const styles = StyleSheet.create({
     backgroundcolor: "#DBDBDB",
   },
   completedConnector: {
-    backgroundColor: "#F9F5F0",
+    backgroundColor: "#FFFFFF",
   },
   labelsContainer: {
     flexDirection: "row",

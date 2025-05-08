@@ -159,7 +159,7 @@ export default function RecipeCard({
 
 const styles = StyleSheet.create({
   card: {
-    backgroundColor: "#F9F5F0",
+    backgroundColor: "#FFFFFF",
     borderRadius: 16,
     overflow: "hidden",
     marginBottom: 16,
@@ -194,7 +194,7 @@ const styles = StyleSheet.create({
     position: "absolute",
     top: 16,
     left: 16,
-    backgroundColor: "#F9F5F0",
+    backgroundColor: "#FFFFFF",
     paddingHorizontal: 12,
     paddingVertical: 6,
     borderRadius: 20,

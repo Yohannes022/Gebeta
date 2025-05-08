@@ -83,7 +83,7 @@ const styles = StyleSheet.create({
     width: "100%",
   },
   primary: {
-    backgroundColor: "#F9F5F0",
+    backgroundColor: "#FFFFFF",
   },
   secondary: {
     backgroundColor: "#D9A566",

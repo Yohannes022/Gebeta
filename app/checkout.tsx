@@ -490,13 +490,13 @@ export default function CheckoutScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#F9F5F0",
+    backgroundColor: "#FFFFFF",
   },
   loadingContainer: {
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
-    backgroundColor: "#F9F5F0",
+    backgroundColor: "#FFFFFF",
   },
   loadingText: {
     fontSize: 16,
@@ -505,7 +505,7 @@ const styles = StyleSheet.create({
     color: "#8E8E8E",
   },
   section: {
-    backgroundColor: "#F9F5F0",
+    backgroundColor: "#FFFFFF",
     borderRadius: 16,
     padding: 20,
     margin: 20,
@@ -568,7 +568,7 @@ const styles = StyleSheet.create({
     bordercolor: "#DBDBDB",
   },
   selectedTipButton: {
-    backgroundColor: "#F9F5F0" + "20", // 20% opacity
+    backgroundColor: "#FFFFFF" + "20", // 20% opacity
     borderColor: "#3E7EA6",
   },
   tipButtonText: {
@@ -599,7 +599,7 @@ const styles = StyleSheet.create({
     marginLeft: 12,
   },
   summaryContainer: {
-    backgroundColor: "#F9F5F0",
+    backgroundColor: "#FFFFFF",
     borderRadius: 16,
     padding: 20,
     margin: 20,
@@ -648,7 +648,7 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: "#3E7EA6",
     borderRadius: 8,
-    backgroundColor: "#F9F5F0" + "10",
+    backgroundColor: "#FFFFFF" + "10",
   },
   receiptButtonText: {
     fontSize: 16,
@@ -658,7 +658,7 @@ const styles = StyleSheet.create({
     marginLeft: 8,
   },
   footer: {
-    backgroundColor: "#F9F5F0",
+    backgroundColor: "#FFFFFF",
     padding: 20,
     borderTopWidth: 1,
     borderTopcolor: "#DBDBDB",

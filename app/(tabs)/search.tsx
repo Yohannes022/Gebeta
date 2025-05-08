@@ -322,7 +322,7 @@ export default function SearchScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#F9F5F0",
+    backgroundColor: "#FFFFFF",
     padding: 20,
   },
   searchHeader: {
@@ -344,7 +344,7 @@ const styles = StyleSheet.create({
     marginLeft: 12,
   },
   activeFilterButton: {
-    backgroundColor: "#F9F5F0",
+    backgroundColor: "#FFFFFF",
   },
   sortButton: {
     flexDirection: "row",
@@ -361,7 +361,7 @@ const styles = StyleSheet.create({
     marginHorizontal: 8,
   },
   sortOptionsContainer: {
-    backgroundColor: "#F9F5F0",
+    backgroundColor: "#FFFFFF",
     borderRadius: 12,
     marginBottom: 16,
     elevation: 2,
@@ -378,7 +378,7 @@ const styles = StyleSheet.create({
     borderBottomcolor: "#DBDBDB",
   },
   selectedSortOption: {
-    backgroundColor: "#F9F5F0" + "10",
+    backgroundColor: "#FFFFFF" + "10",
   },
   sortOptionText: {
     fontSize: 16,
@@ -390,7 +390,7 @@ const styles = StyleSheet.create({
     fontWeight: "600",
   },
   filtersContainer: {
-    backgroundColor: "#F9F5F0",
+    backgroundColor: "#FFFFFF",
     borderRadius: 16,
     padding: 16,
     marginBottom: 16,
@@ -436,7 +436,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   selectedDifficultyButton: {
-    backgroundColor: "#F9F5F0",
+    backgroundColor: "#FFFFFF",
   },
   difficultyButtonText: {
     fontSize: 16,
@@ -461,7 +461,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   selectedTimeButton: {
-    backgroundColor: "#F9F5F0",
+    backgroundColor: "#FFFFFF",
   },
   timeButtonText: {
     fontSize: 16,

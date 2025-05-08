@@ -207,12 +207,12 @@ export default function ChatbotScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#F9F5F0",
+    backgroundColor: "#FFFFFF",
   },
   header: {
     paddingVertical: 16,
     paddingHorizontal: 20,
-    backgroundColor: "#F9F5F0",
+    backgroundColor: "#FFFFFF",
     borderBottomWidth: 1,
     borderBottomcolor: "#DBDBDB",
   },
@@ -246,7 +246,7 @@ const styles = StyleSheet.create({
     width: 32,
     height: 32,
     borderRadius: 16,
-    backgroundColor: "#F9F5F0",
+    backgroundColor: "#FFFFFF",
     justifyContent: "center",
     alignItems: "center",
   },
@@ -268,11 +268,11 @@ const styles = StyleSheet.create({
     marginBottom: 4,
   },
   userMessageBubble: {
-    backgroundColor: "#F9F5F0",
+    backgroundColor: "#FFFFFF",
     borderBottomRightRadius: 4,
   },
   botMessageBubble: {
-    backgroundColor: "#F9F5F0",
+    backgroundColor: "#FFFFFF",
     borderBottomLeftRadius: 4,
   },
   messageText: {
@@ -298,7 +298,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
     padding: 8,
-    backgroundColor: "#F9F5F0",
+    backgroundColor: "#FFFFFF",
     borderRadius: 16,
     alignSelf: "flex-start",
     marginLeft: 48,
@@ -313,7 +313,7 @@ const styles = StyleSheet.create({
   inputContainer: {
     flexDirection: "row",
     padding: 16,
-    backgroundColor: "#F9F5F0",
+    backgroundColor: "#FFFFFF",
     borderTopWidth: 1,
     borderTopcolor: "#DBDBDB",
   },
@@ -335,7 +335,7 @@ const styles = StyleSheet.create({
     width: 40,
     height: 40,
     borderRadius: 20,
-    backgroundColor: "#F9F5F0",
+    backgroundColor: "#FFFFFF",
     justifyContent: "center",
     alignItems: "center",
   },

@@ -297,7 +297,7 @@ export default function ProfileScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#F9F5F0",
+    backgroundColor: "#FFFFFF",
   },
   header: {
     flexDirection: "row",
@@ -385,7 +385,7 @@ const styles = StyleSheet.create({
     marginLeft: 8,
   },
   section: {
-    backgroundColor: "#F9F5F0",
+    backgroundColor: "#FFFFFF",
     borderRadius: 16,
     padding: 20,
     marginHorizontal: 20,
@@ -474,7 +474,7 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     borderBottomWidth: 1,
     borderBottomcolor: "#DBDBDB",
-    backgroundColor: "#F9F5F0",
+    backgroundColor: "#FFFFFF",
   },
   tabButton: {
     flex: 1,
@@ -521,7 +521,7 @@ const styles = StyleSheet.create({
     marginBottom: 24,
   },
   createButton: {
-    backgroundColor: "#F9F5F0",
+    backgroundColor: "#FFFFFF",
     paddingVertical: 12,
     paddingHorizontal: 24,
     borderRadius: 8,

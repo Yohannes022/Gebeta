@@ -13,7 +13,7 @@ export default function TabLayout() {
         tabBarActiveTintColor: "#3E7EA6",
         tabBarInactiveTintcolor: "#8E8E8E",
         tabBarStyle: {
-          backgroundColor: "#F9F5F0",
+          backgroundColor: "#FFFFFF",
           borderTopcolor: "#DBDBDB",
         },
         tabBarLabelStyle: {
@@ -21,7 +21,7 @@ export default function TabLayout() {
           fontWeight: "500",
         },
         headerStyle: {
-          backgroundColor: "#F9F5F0",
+          backgroundColor: "#FFFFFF",
         },
         headerTintcolor: "#000000",
         headerShadowVisible: false,

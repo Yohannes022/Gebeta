@@ -39,7 +39,7 @@ const styles = StyleSheet.create({
     marginBottom: 8,
   },
   selectedPill: {
-    backgroundColor: "#F9F5F0",
+    backgroundColor: "#FFFFFF",
   },
   pillText: {
     fontSize: 12,

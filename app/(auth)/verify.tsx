@@ -174,7 +174,7 @@ export default function VerifyScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#F9F5F0",
+    backgroundColor: "#FFFFFF",
   },
   safeArea: {
     flex: 1,
@@ -212,11 +212,11 @@ const styles = StyleSheet.create({
     textAlign: "center",
     fontSize: 20,
     fontWeight: "600",
-    backgroundColor: "#F9F5F0",
+    backgroundColor: "#FFFFFF",
   },
   otpInputFilled: {
     borderColor: "#3E7EA6",
-    backgroundColor: "#F9F5F0" + "10",
+    backgroundColor: "#FFFFFF" + "10",
   },
   button: {
     marginBottom: 24,

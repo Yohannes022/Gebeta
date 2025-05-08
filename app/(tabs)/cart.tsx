@@ -167,7 +167,7 @@ export default function CartScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#F9F5F0",
+    backgroundColor: "#FFFFFF",
   },
   emptyContainer: {
     flex: 1,
@@ -196,7 +196,7 @@ const styles = StyleSheet.create({
   },
   restaurantContainer: {
     flexDirection: "row",
-    backgroundColor: "#F9F5F0",
+    backgroundColor: "#FFFFFF",
     borderRadius: 16,
     overflow: "hidden",
     margin: 20,
@@ -249,7 +249,7 @@ const styles = StyleSheet.create({
     // color: "#ED4956",
   },
   summaryContainer: {
-    backgroundColor: "#F9F5F0",
+    backgroundColor: "#FFFFFF",
     borderRadius: 16,
     padding: 20,
     margin: 20,
@@ -296,7 +296,7 @@ const styles = StyleSheet.create({
     // color: "#3E7EA6",
   },
   checkoutContainer: {
-    backgroundColor: "#F9F5F0",
+    backgroundColor: "#FFFFFF",
     padding: 20,
     borderTopWidth: 1,
     borderTopcolor: "#DBDBDB",

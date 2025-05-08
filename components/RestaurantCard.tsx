@@ -153,7 +153,7 @@ export default function RestaurantCard({
 
 const styles = StyleSheet.create({
   card: {
-    backgroundColor: "#F9F5F0",
+    backgroundColor: "#FFFFFF",
     borderRadius: 16,
     overflow: "hidden",
     marginBottom: 16,

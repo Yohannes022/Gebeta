@@ -238,7 +238,7 @@ export default function SettingsScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#F9F5F0",
+    backgroundColor: "#FFFFFF",
   },
   header: {
     flexDirection: "row",
@@ -247,7 +247,7 @@ const styles = StyleSheet.create({
     paddingTop: Platform.OS === "ios" ? 50 : 20,
     paddingBottom: 10,
     paddingHorizontal: 20,
-    backgroundColor: "#F9F5F0",
+    backgroundColor: "#FFFFFF",
   },
   backButton: {
     width: 40,
@@ -262,7 +262,7 @@ const styles = StyleSheet.create({
     letterSpacing: 0.2,
   },
   section: {
-    backgroundColor: "#F9F5F0",
+    backgroundColor: "#FFFFFF",
     borderRadius: 16,
     padding: 20,
     margin: 20,
@@ -307,7 +307,7 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     alignItems: "center",
     justifyContent: "center",
-    backgroundColor: "#F9F5F0",
+    backgroundColor: "#FFFFFF",
     borderRadius: 16,
     padding: 16,
     margin: 20,

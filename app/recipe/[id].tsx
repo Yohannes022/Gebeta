@@ -459,7 +459,7 @@ export default function RecipeDetailScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#F9F5F0",
+    backgroundColor: "#FFFFFF",
   },
   notFound: {
     flex: 1,
@@ -471,7 +471,7 @@ const styles = StyleSheet.create({
     marginTop: 16,
     paddingVertical: 8,
     paddingHorizontal: 16,
-    backgroundColor: "#F9F5F0",
+    backgroundColor: "#FFFFFF",
     borderRadius: 8,
   },
   backButtonText: {
@@ -519,7 +519,7 @@ const styles = StyleSheet.create({
     position: "absolute",
     top: Platform.OS === "ios" ? 100 : 70,
     right: 20,
-    backgroundColor: "#F9F5F0",
+    backgroundColor: "#FFFFFF",
     borderRadius: 8,
     padding: 8,
     elevation: 4,
@@ -701,7 +701,7 @@ const styles = StyleSheet.create({
     width: 36,
     height: 36,
     borderRadius: 18,
-    backgroundColor: "#F9F5F0",
+    backgroundColor: "#FFFFFF",
     justifyContent: "center",
     alignItems: "center",
   },
@@ -759,7 +759,7 @@ const styles = StyleSheet.create({
     width: 8,
     height: 8,
     borderRadius: 4,
-    backgroundColor: "#F9F5F0",
+    backgroundColor: "#FFFFFF",
     marginRight: 12,
   },
   ingredientText: {
@@ -768,14 +768,14 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   stepItem: {
-    flexDirection: "row",
+    flexDirection: "row" as const,
     marginBottom: 20,
   },
   stepNumber: {
     width: 32,
     height: 32,
     borderRadius: 16,
-    backgroundColor: "#F9F5F0",
+    backgroundColor: "#FFFFFF",
     justifyContent: "center",
     alignItems: "center",
     marginRight: 16,

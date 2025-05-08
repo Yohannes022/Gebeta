@@ -168,7 +168,7 @@ export default function EditProfileScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#F9F5F0",
+    backgroundColor: "#FFFFFF",
   },
   header: {
     flexDirection: "row",
@@ -177,7 +177,7 @@ const styles = StyleSheet.create({
     paddingTop: Platform.OS === "ios" ? 50 : 20,
     paddingBottom: 10,
     paddingHorizontal: 20,
-    backgroundColor: "#F9F5F0",
+    backgroundColor: "#FFFFFF",
   },
   backButton: {
     width: 40,
@@ -208,7 +208,7 @@ const styles = StyleSheet.create({
     position: "absolute",
     bottom: 0,
     right: "35%",
-    backgroundColor: "#F9F5F0",
+    backgroundColor: "#FFFFFF",
     width: 36,
     height: 36,
     borderRadius: 18,
@@ -218,7 +218,7 @@ const styles = StyleSheet.create({
     borderColor: "#FFFFFF",
   },
   form: {
-    backgroundColor: "#F9F5F0",
+    backgroundColor: "#FFFFFF",
     borderRadius: 16,
     padding: 20,
   },

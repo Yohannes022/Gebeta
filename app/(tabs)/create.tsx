@@ -110,7 +110,7 @@ export default function CreateScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#F9F5F0",
+    backgroundColor: "#FFFFFF",
     padding: 20,
   },
   title: {
@@ -128,7 +128,7 @@ const styles = StyleSheet.create({
     marginBottom: 24,
   },
   createCard: {
-    backgroundColor: "#F9F5F0",
+    backgroundColor: "#FFFFFF",
     borderRadius: 16,
     overflow: "hidden",
     marginBottom: 24,
@@ -163,7 +163,7 @@ const styles = StyleSheet.create({
     width: "100%",
   },
   tipsContainer: {
-    backgroundColor: "#F9F5F0",
+    backgroundColor: "#FFFFFF",
     borderRadius: 16,
     padding: 20,
     elevation: 2,
@@ -187,7 +187,7 @@ const styles = StyleSheet.create({
     width: 32,
     height: 32,
     borderRadius: 16,
-    backgroundColor: "#F9F5F0",
+    backgroundColor: "#FFFFFF",
     justifyContent: "center",
     alignItems: "center",
     marginRight: 12,
@@ -234,7 +234,7 @@ const styles = StyleSheet.create({
     // color: "#8E8E8E",
   },
   authButton: {
-    backgroundColor: "#F9F5F0",
+    backgroundColor: "#FFFFFF",
     paddingVertical: 12,
     paddingHorizontal: 24,
     borderRadius: 8,

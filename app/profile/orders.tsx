@@ -155,7 +155,7 @@ export default function OrdersScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#F9F5F0",
+    backgroundColor: "#FFFFFF",
   },
   header: {
     flexDirection: "row",
@@ -164,7 +164,7 @@ const styles = StyleSheet.create({
     paddingTop: Platform.OS === "ios" ? 50 : 20,
     paddingBottom: 10,
     paddingHorizontal: 20,
-    backgroundColor: "#F9F5F0",
+    backgroundColor: "#FFFFFF",
   },
   backButton: {
     width: 40,
@@ -182,7 +182,7 @@ const styles = StyleSheet.create({
     padding: 20,
   },
   orderCard: {
-    backgroundColor: "#F9F5F0",
+    backgroundColor: "#FFFFFF",
     borderRadius: 12,
     padding: 16,
     marginBottom: 16,
@@ -262,7 +262,7 @@ const styles = StyleSheet.create({
     fontWeight: "600",
   },
   trackButton: {
-    backgroundColor: "#F9F5F0",
+    backgroundColor: "#FFFFFF",
     paddingVertical: 6,
     paddingHorizontal: 12,
     borderRadius: 16,
@@ -296,7 +296,7 @@ const styles = StyleSheet.create({
     marginBottom: 24,
   },
   browseButton: {
-    backgroundColor: "#F9F5F0",
+    backgroundColor: "#FFFFFF",
     paddingVertical: 12,
     paddingHorizontal: 24,
     borderRadius: 8,

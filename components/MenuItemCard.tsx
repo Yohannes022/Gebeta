@@ -114,7 +114,7 @@ export default function MenuItemCard({
 
 const styles = StyleSheet.create({
   card: {
-    backgroundColor: "#F9F5F0",
+    backgroundColor: "#FFFFFF",
     borderRadius: 16,
     overflow: "hidden",
     marginBottom: 16,
@@ -183,7 +183,7 @@ const styles = StyleSheet.create({
     // fontWeight: "600",
   },
   addButton: {
-    backgroundColor: "#F9F5F0",
+    backgroundColor: "#FFFFFF",
     width: 28,
     height: 28,
     borderRadius: 14,
