@@ -160,7 +160,7 @@ const styles = StyleSheet.create({
     lineHeight: 24,
     marginTop: 8,
     marginBottom: 8,
-    // color: "#E53935",
+    // color: "#ED4956",
   },
   footer: {
     marginTop: "auto",

@@ -319,7 +319,7 @@ const styles = StyleSheet.create({
     lineHeight: 24,
     fontWeight: "600",
     marginLeft: 8,
-    // color: "#E53935",
+    // color: "#ED4956",
   },
   versionText: {
     fontSize: 12,

@@ -131,14 +131,14 @@ const styles = StyleSheet.create({
     textAlignVertical: "top",
   },
   inputError: {
-    borderColor: "#E53935",
+    bordercolor: "#ED4956",
   },
   errorText: {
     fontSize: 12,
     color: "#8E8E8E",
     lineHeight: 16,
     marginTop: 4,
-    // color: "#E53935",
+    // color: "#ED4956",
   },
   eyeIcon: {
     padding: 10,

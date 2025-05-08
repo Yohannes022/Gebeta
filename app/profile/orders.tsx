@@ -234,7 +234,7 @@ const styles = StyleSheet.create({
     color: "#43A047",
   },
   cancelledStatus: {
-    color: "#E53935",
+    color: "#ED4956",
   },
   orderItems: {
     borderTopWidth: 1,

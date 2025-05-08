@@ -224,7 +224,7 @@ const styles = StyleSheet.create({
   errorText: {
     fontSize: 16,
     lineHeight: 24,
-    color: "#E53935",
+    color: "#ED4956",
     marginBottom: 16,
   },
   resendContainer: {

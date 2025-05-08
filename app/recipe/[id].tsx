@@ -252,7 +252,7 @@ export default function RecipeDetailScreen() {
                 onPress={handleDelete}
               >
                 <Trash2 size={20} color={"#E53935"} />
-                <Text style={[styles.optionText, { color: "#E53935" }]}>
+                <Text style={[styles.optionText, { color: "#ED4956" }]}>
                   Delete Recipe
                 </Text>
               </TouchableOpacity>

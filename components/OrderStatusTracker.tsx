@@ -145,7 +145,7 @@ const styles = StyleSheet.create({
     // color: "#D9A566",
   },
   cancelledContainer: {
-    backgroundColor: "#E53935" + "20", // 20% opacity
+    backgroundcolor: "#ED4956" + "20", // 20% opacity
     padding: 16,
     borderRadius: 12,
     alignItems: "center",
@@ -155,7 +155,7 @@ const styles = StyleSheet.create({
     color: "#000000",
     lineHeight: 24,
     fontWeight: "500",
-    // color: "#E53935",
+    // color: "#ED4956",
   },
   stepsContainer: {
     flexDirection: "row",

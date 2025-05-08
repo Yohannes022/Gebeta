@@ -191,6 +191,6 @@ const styles = StyleSheet.create({
     // color: "#3E7EA6",
   },
   deleteText: {
-    color: "#E53935",
+    color: "#ED4956",
   },
 });

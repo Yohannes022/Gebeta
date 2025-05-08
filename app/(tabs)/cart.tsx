@@ -246,7 +246,7 @@ const styles = StyleSheet.create({
     fontSize: 16,
     color: "#000000",
     lineHeight: 24
-    // color: "#E53935",
+    // color: "#ED4956",
   },
   summaryContainer: {
     backgroundColor: "#F9F5F0",

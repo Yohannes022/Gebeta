@@ -798,7 +798,7 @@ const styles = StyleSheet.create({
   contentErrorContainer: {
     flexDirection: "row",
     alignItems: "center",
-    backgroundColor: "#E53935" + "15",
+    backgroundcolor: "#ED4956" + "15",
     padding: 12,
     borderRadius: 8,
     marginTop: 16,
@@ -806,7 +806,7 @@ const styles = StyleSheet.create({
   contentErrorText: {
     fontSize: 16,
     lineHeight: 24,
-    color: "#E53935",
+    color: "#ED4956",
     marginLeft: 8,
     flex: 1,
   },
@@ -819,7 +819,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#43A047" + "15",
   },
   invalidContainer: {
-    backgroundColor: "#E53935" + "15",
+    backgroundcolor: "#ED4956" + "15",
   },
   validationResultTitle: {
     fontSize: 18,
@@ -848,7 +848,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#43A047",
   },
   invalidScoreFill: {
-    backgroundColor: "#E53935",
+    backgroundcolor: "#ED4956",
   },
   validationScoreText: {
     fontSize: 12,
@@ -874,7 +874,7 @@ const styles = StyleSheet.create({
   errorText: {
     fontSize: 12,
     lineHeight: 16,
-    color: "#E53935",
+    color: "#ED4956",
     marginBottom: 8,
   },
 });

@@ -713,7 +713,7 @@ const styles = StyleSheet.create({
     fontSize: 12,
     color: "#8E8E8E",
     lineHeight: 16,
-    // color: "#E53935",
+    // color: "#ED4956",
     marginBottom: 8,
   },
 });
